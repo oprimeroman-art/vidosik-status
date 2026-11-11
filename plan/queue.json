@@ -1,21 +1,22 @@
 {
   "schema": 2,
   "snapshot_date": "2026-11-11",
-  "snapshot_label": "11 ноября 2026, вечер",
+  "snapshot_label": "11 ноября 2026 · финал F.E.A.R. подтверждён",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "F.E.A.R. 2: Project Origin",
-    "status": "in_production",
+    "status": "completed",
     "published_parts": 5,
-    "summary": "Доводим до полного канонического финала. Опубликовано 5 частей; цикл не закрыт, пока не проверена развязка."
+    "summary": "Сюжетный цикл завершён. Часть 5 опубликована 11 ноября в 06:19 МСК; производственный отчёт подтвердил завершение основной истории.",
+    "public_url": "https://www.youtube.com/shorts/oFxYChmRbMU"
   },
   "next": {
     "game": "Tenebris Somnia",
     "approved": true,
     "approval": "owner 2026-11-11",
-    "status": "Утверждена · автоматически после F.E.A.R.",
-    "handoff": "После полного завершения F.E.A.R. запускаем новую сюжетную серию без ожидания кнопки или дополнительного согласования.",
-    "reason": "Завершённый атмосферный хоррор с полноценным сюжетом; зрительский спрос подтверждён, игра уже пройдена автором с крупной аудиторией.",
+    "status": "Следующая · запуск в ближайшую производственную смену",
+    "handoff": "F.E.A.R. 2 завершена. Tenebris Somnia — следующая игра; начинаем с части 1 без дополнительного согласования.",
+    "reason": "Владелец утвердил игру. Завершённый атмосферный хоррор с цельным сюжетом и подтверждённым зрительским интересом.",
     "evidence": [
       {
         "text": "Вышла 16 октября 2026 года; полноценный одиночный survival horror.",
@@ -90,7 +91,10 @@
     "do_not_infer_published_from_recommendation": true,
     "rotation_policy_updated": "2026-11-11",
     "no_forced_extras": true,
-    "next_production_runs": "06:00/08:00/11:00/16:00 Moscow"
+    "next_production_runs": "06:00/08:00/11:00/16:00 Moscow",
+    "last_verified_production": "2026-11-11T06:19:00+03:00",
+    "last_completed_arc": "F.E.A.R. 2",
+    "next_arc": "Tenebris Somnia"
   },
   "rotation": {
     "mode": "adaptive_two_series",
@@ -117,14 +121,7 @@
       "Half-Life (closed)"
     ],
     "preferred_story_length": "Roughly 3 gameplay hours; owner-approved Tenebris Somnia and ongoing F.E.A.R. exempt. Estimate 2–5 Shorts for most new arcs; extend only if story demands it.",
-    "active_storylines": [
-      {
-        "game": "F.E.A.R. 2: Project Origin",
-        "status": "active",
-        "since": "2026-11-03",
-        "note": "Finish canonical ending; may interleave with a second game if urgency and capacity justify."
-      }
-    ],
+    "active_storylines": [],
     "approved_next": {
       "game": "Tenebris Somnia",
       "approved_by": "owner",
@@ -134,22 +131,22 @@
     "next_story_candidate": null,
     "next_daily_plan": {
       "date": "2026-11-12",
-      "state": "provisional",
-      "reason": "Baseline 1 Short; Planner will check current story, full market trends and production ledger before confirming.",
+      "state": "ready",
+      "reason": "F.E.A.R. 2 завершена по фактическому производственному отчёту. Следующий утверждённый сюжет — Tenebris Somnia.",
       "planned_count": 1,
       "slots": [
         {
           "target_time": "08:00",
-          "game": "F.E.A.R. 2: Project Origin",
-          "action": "continue_story_or_start_approved_next_if_canon_finished",
-          "episode": "next_unpublished",
-          "reason": "Finish current canonical storyline first; start Tenebris Somnia when finished."
+          "game": "Tenebris Somnia",
+          "action": "start_approved_story",
+          "episode": "part_1",
+          "reason": "Начать следующую утверждённую историю; перед сценарием проверить полный канонический сюжет."
         }
       ]
     },
-    "production_state_source": "Private production ledger and Metricool actual statuses are authoritative. Recommendations never count as published.",
-    "activation_status": "pending_task_service_update",
-    "production_currently": "one Short per day; two or three publication slots not enabled in automation yet",
+    "production_state_source": "Private production ledger, YouTube public URL and Metricool PUBLISHED state are authoritative.",
+    "activation_status": "editorial_queue_ready; automation_service_update_blocked",
+    "production_currently": "Existing production automation still has one-short daily schedule; adaptive 1–3 slots are not active until task service accepts prompt and schedule updates.",
     "activation_verified_at": "2026-11-11"
   }
 }
