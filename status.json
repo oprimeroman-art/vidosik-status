@@ -1,0 +1,237 @@
+{
+  "updatedAt": "2026-11-11",
+  "title": "ВИДОСИК byGagarin",
+  "description": "Публичная информационная панель YouTube-канала: статистика, последние выпуски, очередь сюжетов и редакционная система трендов.",
+  "access": "public_read_only",
+  "channel": {
+    "name": "Gagarin-Indie-music",
+    "url": "https://www.youtube.com/@gagarin-indie-music",
+    "subscribers": 47,
+    "publicVideos": 24,
+    "totalViews": 11778
+  },
+  "topVideos": [
+    {
+      "title": "Краткая история сюжета Half-Life",
+      "views": 5738,
+      "likes": 113,
+      "retention": 57.12,
+      "subscribersGained": 15,
+      "url": "https://youtube.com/shorts/_Y_3jBA9fV8"
+    },
+    {
+      "title": "Краткая история сюжета Half-Life 2",
+      "views": 1599,
+      "likes": 58,
+      "retention": 48.16,
+      "subscribersGained": 4,
+      "url": "https://youtube.com/shorts/ni0GMLElCmk"
+    },
+    {
+      "title": "Краткая история сюжета Half-Life 2 — Эпизод 2",
+      "views": 1213,
+      "likes": 36,
+      "retention": 34.99,
+      "subscribersGained": 3,
+      "url": "https://youtube.com/shorts/9_Y4HHu9aTU"
+    },
+    {
+      "title": "Краткий сюжет Half-Life: Alyx",
+      "views": 736,
+      "likes": 34,
+      "retention": 35.95,
+      "subscribersGained": 4,
+      "url": "https://youtube.com/shorts/ozFUvHEU2Lk"
+    },
+    {
+      "title": "Краткая история Half-Life 2: Episode One",
+      "views": 650,
+      "likes": 28,
+      "retention": 42.95,
+      "subscribersGained": 3,
+      "url": "https://youtube.com/shorts/MWicaVZzxSo"
+    },
+    {
+      "title": "Сюжет POSTAL",
+      "views": 538,
+      "likes": 21,
+      "retention": 41.14,
+      "subscribersGained": 1,
+      "url": "https://youtube.com/shorts/PY7Qgh9TYek"
+    },
+    {
+      "title": "F.E.A.R. — Альма, Феттел и главный кошмар игры",
+      "views": 362,
+      "likes": 10,
+      "retention": 34.1,
+      "subscribersGained": 4,
+      "url": "https://youtube.com/shorts/DXK17GzDkW0"
+    }
+  ],
+  "recentEpisodes": [
+    {
+      "title": "F.E.A.R. 2 — Часть 5: Ловушка Аристид",
+      "date": "2026-11-11",
+      "views": 25,
+      "url": "https://youtube.com/shorts/oFxYChmRbMU"
+    },
+    {
+      "title": "F.E.A.R. 2 — Часть 4: Путь на остров Стилл",
+      "date": "2026-11-10",
+      "views": 35,
+      "url": "https://youtube.com/shorts/LKHq6jZQ0VA"
+    },
+    {
+      "title": "F.E.A.R. 2 — Часть 3: Школа Парагон",
+      "date": "2026-11-09",
+      "views": 32,
+      "url": "https://youtube.com/shorts/EDoHHBcHVuU"
+    }
+  ],
+  "currentSeries": [
+    {
+      "name": "F.E.A.R. 2: Project Origin",
+      "publishedParts": 5,
+      "status": "Пять частей опубликовано; полнота финала сюжета ещё проверяется."
+    },
+    {
+      "name": "Half-Life",
+      "publishedParts": 5,
+      "status": "Пять сюжетных выпусков; серия — лидер по просмотрам."
+    },
+    {
+      "name": "POSTAL",
+      "publishedParts": 3,
+      "status": "Есть несколько выпусков; покрытие всей серии не завершено."
+    }
+  ],
+  "nextQueue": [
+    "Postal 2",
+    "Postal 3",
+    "Штопор жжот",
+    "Silent Hill",
+    "Max Payne 2"
+  ],
+  "sourcePriority": [
+    {
+      "rank": 1,
+      "name": "StopGame",
+      "weight": 6,
+      "type": "Игровое СМИ",
+      "url": "https://stopgame.ru/news",
+      "use": "Первый редакционный сигнал; отслеживать крупные новости, анонсы, обзоры и обсуждения."
+    },
+    {
+      "rank": 2,
+      "name": "PlayGround",
+      "weight": 5,
+      "type": "Игровое СМИ",
+      "url": "https://www.playground.ru/news",
+      "use": "Второй независимый редакционный сигнал; сверять частоту и значимость тем."
+    },
+    {
+      "rank": 3,
+      "name": "IGM",
+      "weight": 4,
+      "type": "Игровое СМИ",
+      "url": "https://igm.gg/media/news",
+      "use": "Третий редакционный сигнал. В этой системе IGM означает IGM.gg, не Игроманию."
+    },
+    {
+      "rank": 4,
+      "name": "Куплинов",
+      "weight": 3,
+      "type": "Автор / игровой контент",
+      "url": null,
+      "use": "Сигнал интереса аудитории по факту прохождения, стрима или ролика по игре; не считать простое упоминание полноценным сигналом."
+    },
+    {
+      "rank": 5,
+      "name": "SNG Games",
+      "weight": 2,
+      "type": "Собственная редакция",
+      "url": "https://snggames.ru/",
+      "use": "Внутренний сигнал и возможность увидеть интерес к игре в собственной редакционной повестке; не считать независимым подтверждением."
+    },
+    {
+      "rank": 6,
+      "name": "Все остальные",
+      "weight": 1,
+      "type": "Длинный хвост источников",
+      "url": null,
+      "use": "Steam Charts, SteamDB, Google Trends, YouTube, Reddit, разработчики, издатели и другие СМИ/авторы."
+    }
+  ],
+  "hypeModel": {
+    "note": "Ориентировочная модель информационного интереса, не фактические проценты просмотров.",
+    "stages": [
+      {
+        "stage": "Анонс / первые подробности",
+        "period": "T−30…T−15",
+        "level": 20
+      },
+      {
+        "stage": "Маркетинг и трейлеры",
+        "period": "T−14…T−8",
+        "level": 35
+      },
+      {
+        "stage": "Предрелизный разгон",
+        "period": "T−7…T−1",
+        "level": 70
+      },
+      {
+        "stage": "Релизный пик",
+        "period": "T0…T+3",
+        "level": 100
+      },
+      {
+        "stage": "Первая волна игроков",
+        "period": "T+4…T+7",
+        "level": 85
+      },
+      {
+        "stage": "Обсуждение сюжета и прохождений",
+        "period": "T+8…T+14",
+        "level": 65
+      },
+      {
+        "stage": "Спад первой волны",
+        "period": "T+15…T+30",
+        "level": 45
+      },
+      {
+        "stage": "Длинный хвост",
+        "period": "T+31…T+60",
+        "level": 25
+      },
+      {
+        "stage": "Эвергрин / ностальгия",
+        "period": "T+61 и далее",
+        "level": 15
+      }
+    ]
+  },
+  "editorialRules": {
+    "maxHypeDrivenSlotsPerGamePer7Days": 2,
+    "principle": "A single trending game or franchise must not occupy the whole editorial calendar just because every outlet is discussing it.",
+    "preserveActiveStoryArc": true,
+    "exception": "An already approved multi-part story cycle may continue without interruption. The cap applies to new hype-driven insertions; exceptions require a clear editorial reason or owner approval.",
+    "defaultWeeklyMixWhenNoActiveSerialCommitment": {
+      "trendOrLaunchTopics": 2,
+      "ongoingStoryAndBacklog": 3,
+      "evergreenOrNostalgia": 2
+    },
+    "diversity": "Keep horror, classics, indie games, CIS games and the existing backlog in the candidate pool during major releases."
+  },
+  "gta6": {
+    "releaseDate": "2026-11-19",
+    "officialSource": "https://www.rockstargames.com/VI",
+    "note": "GTA 6 отслеживается как крупный инфоповод, но не получает всю редакционную сетку. Не более двух новых hype-driven слотов за семь дней; уже начатые сюжетные циклы не обрываются."
+  },
+  "notes": [
+    "Сравнение роликов должно идти на одинаковом возрасте публикации: 24 часа, 72 часа и 7 дней.",
+    "Свежие дни, отсутствующие в YouTube Analytics, не считаются нулём.",
+    "Панель показывает только информационные данные и публичные ссылки; авторизация и пароли не нужны."
+  ]
+}
