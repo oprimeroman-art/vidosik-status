@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0d131b">
+<meta name="robots" content="noindex,nofollow">
+<title>ВИДОСИК — что дальше</title>
+<style>
+:root{color-scheme:dark;--bg:#0e141d;--panel:#172231;--stroke:#2d3a49;--ink:#edf3f8;--muted:#a2afbd;--accent:#8ebfff;--green:#93dac1;--gold:#f1c884}*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(145deg,#17283b 0,#0e141d 36%);color:var(--ink);font:15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:680px;margin:0 auto;padding:28px 17px 50px}
+.eyebrow{font-size:11px;font-weight:750;letter-spacing:.17em;color:var(--accent)}
+h1{font-size:clamp(28px,7vw,39px);line-height:1.15;letter-spacing:-.035em;margin:9px 0 7px}
+h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 7px}
+h3{font-size:23px;line-height:1.25;margin:0 0 7px}
+p{margin:7px 0}.muted{color:var(--muted)}.small{font-size:12px;color:var(--muted)}
+.lead{color:var(--muted);margin-bottom:21px}.card{padding:18px 19px;background:var(--panel);border:1px solid var(--stroke);border-radius:13px;margin:12px 0}
+.next{border-color:#526f85;background:linear-gradient(145deg,#1b3041,#182431)}
+.status{display:inline-block;color:var(--green);font-weight:750;font-size:12px;margin:0 0 8px}
+.note{border-left:2px solid #728eaa;padding-left:11px;color:#c7d4e0;font-size:14px;margin-top:12px}
+ul{padding-left:20px;margin:8px 0}li{margin:7px 0}a{color:var(--accent);text-decoration:underline;text-decoration-color:#526a80;text-underline-offset:3px}
+.subrow{border-top:1px solid var(--stroke);padding:11px 0}.subrow:first-child{border-top:0;padding-top:1px}.subrow strong{font-size:15px}.subrow p{font-size:13px;color:var(--muted);margin:3px 0 0}
+.footer{font-size:12px;color:var(--muted);margin:22px 0 0}
+@media(max-width:460px){main{padding:22px 12px 35px}.card{padding:15px 15px}}
+</style>
+</head>
+<body>
+<main>
+<div class="eyebrow">byGAGARIN / РЕДАКЦИЯ</div>
+<h1>ВИДОСИК: что дальше</h1>
+<p class="lead">Одна короткая записка. Что делаем, что следующее и почему.</p>
+<p class="small" id="updated">Исследование: 11 ноября 2026</p>
+
+<section class="card" aria-labelledby="current-title">
+<h2 id="current-title">Сейчас в производстве</h2>
+<h3 id="current-name">F.E.A.R. 2: Project Origin</h3>
+<p id="current-detail">Доводим до полного канонического финала. Опубликовано 5 частей; сюжетный цикл ещё не закрыт.</p>
+</section>
+
+<section class="card next" aria-labelledby="next-title">
+<h2 id="next-title">Следующая игра</h2>
+<div class="status" id="next-status">Утверждена · автоматически после F.E.A.R.</div>
+<h3 id="next-name">Tenebris Somnia</h3>
+<p id="next-reason">Сюжетный хоррор с завершённой кампанией и сильным зрительским сигналом.</p>
+<ul id="evidence">
+<li>Релиз 16 октября 2026 года.</li>
+<li>Куплинов: 10 частей; первая — 1 463 281 просмотр.</li>
+<li>Steam: 94% положительных отзывов из 1 714.</li>
+</ul>
+<p class="note" id="next-transition">Берём в производство после завершения текущей истории F.E.A.R.</p>
+</section>
+
+<section class="card" aria-labelledby="reserve-title">
+<h2 id="reserve-title">На подхвате</h2>
+<div id="reserve">
+<div class="subrow"><strong>Five Signals</strong><p>Свежий интерес, но пока один сильный сигнал.</p></div>
+<div class="subrow"><strong>Resident Evil Requiem</strong><p>Большая аудитория, высокая конкуренция.</p></div>
+<div class="subrow"><strong>Silent Hill: Townfall</strong><p>Сюжет подходит, пик внимания позади.</p></div>
+</div>
+</section>
+
+<section class="card" aria-labelledby="done-title">
+<h2 id="done-title">Закрыто / не повторять</h2>
+<p id="done">Postal · Half-Life</p>
+</section>
+
+<p class="footer" id="footer">Planner исследует рынок ежедневно. Следующая игра выбирается автоматически; текущий сюжет не обрываем. Если решение нужно изменить — напиши в чат. Никаких кнопок управления здесь нет.</p>
+<p class="footer">Ищем спрос на YouTube в целом. Источники по порядку: StopGame → PlayGround → IGM → Куплинов → SNG Games → остальные. На одну хайповую игру не отдаём всю редакцию.</p>
+</main>
+<script>
+(async()=>{
+try{
+const r=await fetch('./queue.json',{cache:'no-store'});if(!r.ok)throw Error('No data');
+const d=await r.json();
+const set=(id,value)=>{if(value!==undefined&&value!==null)document.getElementById(id).textContent=value};
+set('updated','Исследование: '+d.snapshot_label);
+set('current-name',d.current.game);
+set('current-detail',d.current.summary);
+set('next-name',d.next.game);
+set('next-status',d.next.status);
+set('next-reason',d.next.reason);
+set('next-transition',d.next.handoff);
+const ev=document.getElementById('evidence');ev.replaceChildren();
+for(const e of d.next.evidence){const li=document.createElement('li');li.append(document.createTextNode(e.text+' '));if(e.url){const a=document.createElement('a');a.href=e.url;a.target='_blank';a.rel='noopener';a.textContent='источник';li.append(a)}ev.append(li)}
+const list=document.getElementById('reserve');list.replaceChildren();
+for(const item of d.reserve){const div=document.createElement('div');div.className='subrow';const b=document.createElement('strong');b.textContent=item.game;const p=document.createElement('p');p.textContent=item.note;div.append(b,p);list.append(div)}
+set('done',d.closed.join(' · '));
+}catch(e){document.getElementById('updated').textContent='Исследование: 11 ноября 2026 · архивный снимок, обновление не получено'}
+})();
+</script>
+</body></html>

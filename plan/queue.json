@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-11-11",
+  "snapshot_label": "11 ноября 2026, вечер",
+  "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
+  "current": {
+    "game": "F.E.A.R. 2: Project Origin",
+    "status": "in_production",
+    "published_parts": 5,
+    "summary": "Доводим до полного канонического финала. Опубликовано 5 частей; цикл не закрыт, пока не проверена развязка."
+  },
+  "next": {
+    "game": "Tenebris Somnia",
+    "approved": true,
+    "approval": "owner 2026-11-11",
+    "status": "Утверждена · автоматически после F.E.A.R.",
+    "handoff": "После полного завершения F.E.A.R. запускаем новую сюжетную серию без ожидания кнопки или дополнительного согласования.",
+    "reason": "Завершённый атмосферный хоррор с полноценным сюжетом; зрительский спрос подтверждён, игра уже пройдена автором с крупной аудиторией.",
+    "evidence": [
+      {
+        "text": "Вышла 16 октября 2026 года; полноценный одиночный survival horror.",
+        "url": "https://store.steampowered.com/app/2121510/Tenebris_Somnia/"
+      },
+      {
+        "text": "Куплинов: 10 частей; 1-я часть — 1 463 281 просмотр (срез 11 ноября).",
+        "url": "https://www.youtube.com/watch?v=M6QVk4odkog"
+      },
+      {
+        "text": "Steam: 94% положительных отзывов из 1 714 (срез 10 ноября).",
+        "url": "https://charts.game/games/2121510-tenebris-somnia/reviews"
+      }
+    ]
+  },
+  "reserve": [
+    {
+      "game": "Five Signals",
+      "note": "Куплинов: 343 935 просмотров на выпуске от 10 ноября. Проверяем, есть ли достаточный законченный сюжет."
+    },
+    {
+      "game": "Resident Evil Requiem",
+      "note": "Высокий глобальный спрос, но высокая конкуренция. Нужна отдельная оценка сюжетных пересказов."
+    },
+    {
+      "game": "Silent Hill: Townfall",
+      "note": "Сюжет подходит; прохождения популярны, но первая волна интереса уже прошла."
+    }
+  ],
+  "closed": [
+    "Postal",
+    "Half-Life"
+  ],
+  "owner_rules": {
+    "no_approval_buttons": true,
+    "auto_start_after_current_arc": true,
+    "keep_existing_production_unchanged": true,
+    "avoid_hype_monopoly": true,
+    "priority_sources": [
+      "StopGame",
+      "PlayGround",
+      "IGM.gg",
+      "Куплинов",
+      "SNG Games",
+      "Все остальные"
+    ]
+  },
+  "meta": {
+    "data_type": "dated editorial snapshot",
+    "public_info_only": true,
+    "update_cadence": "daily via existing Planner automation",
+    "source": "Existing private editorial brief and verified official YouTube/Steam signals",
+    "do_not_infer_published_from_recommendation": true
+  }
+}
