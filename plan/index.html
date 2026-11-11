@@ -38,6 +38,14 @@ ul{padding-left:20px;margin:8px 0}li{margin:7px 0}a{color:var(--accent);text-dec
 <p id="current-detail">Доводим до полного канонического финала. Опубликовано 5 частей; сюжетный цикл ещё не закрыт.</p>
 </section>
 
+<section class="card" aria-labelledby="rotation-title">
+<h2 id="rotation-title">Ротация выпусков</h2>
+<p id="rotation-summary">Обычно 1 Short. До 3 при хорошем поводе, интервалы около 5 часов.</p>
+<p class="small" id="rotation-day">Следующий план — 12 ноября</p>
+<div id="rotation-slots"><div class="subrow"><strong>08:00 — F.E.A.R. 2</strong><p>Продолжение сюжета; внеплановые выпуски — только при сильном поводе.</p></div></div>
+<p class="small">Не более двух параллельных игр. Каждую доводим до финала.</p>
+</section>
+
 <section class="card next" aria-labelledby="next-title">
 <h2 id="next-title">Следующая игра</h2>
 <div class="status" id="next-status">Утверждена · автоматически после F.E.A.R.</div>
@@ -65,7 +73,7 @@ ul{padding-left:20px;margin:8px 0}li{margin:7px 0}a{color:var(--accent);text-dec
 <p id="done">Postal · Half-Life</p>
 </section>
 
-<p class="footer" id="footer">Planner исследует рынок ежедневно. Следующая игра выбирается автоматически; текущий сюжет не обрываем. Если решение нужно изменить — напиши в чат. Никаких кнопок управления здесь нет.</p>
+<p class="footer" id="footer">Planner исследует рынок ежедневно. Может чередовать до двух сюжетных игр и назначать 1–3 выпуска в день, когда это оправдано. Начатые истории не бросаем. Если решение нужно изменить — напиши в чат. Никаких кнопок управления здесь нет.</p>
 <p class="footer">Ищем спрос на YouTube в целом. Источники по порядку: StopGame → PlayGround → IGM → Куплинов → SNG Games → остальные. На одну хайповую игру не отдаём всю редакцию.</p>
 </main>
 <script>
@@ -86,6 +94,13 @@ for(const e of d.next.evidence){const li=document.createElement('li');li.append(
 const list=document.getElementById('reserve');list.replaceChildren();
 for(const item of d.reserve){const div=document.createElement('div');div.className='subrow';const b=document.createElement('strong');b.textContent=item.game;const p=document.createElement('p');p.textContent=item.note;div.append(b,p);list.append(div)}
 set('done',d.closed.join(' · '));
+if(d.rotation){
+ const ro=d.rotation,p=ro.next_daily_plan||{};
+ set('rotation-summary','Обычно '+ro.standard_count+' Short. До '+ro.maximum_count+' только при поводе и возможностях производства; публикации с интервалом около '+ro.minimum_planned_spacing_hours+' часов.');
+ set('rotation-day',p.date?'План на '+p.date+' (МСК)'+(p.state==='provisional'?' · предварительный':''):'План уточняется');
+ const parent=document.getElementById('rotation-slots');parent.replaceChildren();
+ for(const s of p.slots||[]){const div=document.createElement('div');div.className='subrow';const b=document.createElement('strong');b.textContent=s.target_time+' — '+s.game;const note=document.createElement('p');note.textContent=s.reason||'';div.append(b,note);parent.append(div)}
+}
 }catch(e){document.getElementById('updated').textContent='Исследование: 11 ноября 2026 · архивный снимок, обновление не получено'}
 })();
 </script>
