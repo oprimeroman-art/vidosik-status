@@ -118,16 +118,16 @@
       "name": "StopGame",
       "weight": 6,
       "type": "Игровое СМИ",
-      "url": "https://stopgame.ru/news",
-      "use": "Первый редакционный сигнал; отслеживать крупные новости, анонсы, обзоры и обсуждения."
+      "url": "https://stopgame.ru/",
+      "use": "Первый редакционный сигнал."
     },
     {
       "rank": 2,
       "name": "PlayGround",
       "weight": 5,
       "type": "Игровое СМИ",
-      "url": "https://www.playground.ru/news",
-      "use": "Второй независимый редакционный сигнал; сверять частоту и значимость тем."
+      "url": "https://www.playground.ru/",
+      "use": "Второй независимый редакционный сигнал."
     },
     {
       "rank": 3,
@@ -135,7 +135,7 @@
       "weight": 4,
       "type": "Игровое СМИ",
       "url": "https://igm.gg/media/news",
-      "use": "Третий редакционный сигнал. В этой системе IGM означает IGM.gg, не Игроманию."
+      "use": "Третий редакционный сигнал; именно IGM.gg."
     },
     {
       "rank": 4,
@@ -143,7 +143,7 @@
       "weight": 3,
       "type": "Автор / игровой контент",
       "url": null,
-      "use": "Сигнал интереса аудитории по факту прохождения, стрима или ролика по игре; не считать простое упоминание полноценным сигналом."
+      "use": "Сигнал по факту прохождения, стрима или ролика по игре."
     },
     {
       "rank": 5,
@@ -151,7 +151,7 @@
       "weight": 2,
       "type": "Собственная редакция",
       "url": "https://snggames.ru/",
-      "use": "Внутренний сигнал и возможность увидеть интерес к игре в собственной редакционной повестке; не считать независимым подтверждением."
+      "use": "Внутренний сигнал byGagarin, не независимое подтверждение."
     },
     {
       "rank": 6,
@@ -159,7 +159,7 @@
       "weight": 1,
       "type": "Длинный хвост источников",
       "url": null,
-      "use": "Steam Charts, SteamDB, Google Trends, YouTube, Reddit, разработчики, издатели и другие СМИ/авторы."
+      "use": "Steam, Google Trends, YouTube, Reddit, разработчики, издатели, прочие СМИ и авторы."
     }
   ],
   "hypeModel": {
@@ -214,9 +214,8 @@
   },
   "editorialRules": {
     "maxHypeDrivenSlotsPerGamePer7Days": 2,
-    "principle": "A single trending game or franchise must not occupy the whole editorial calendar just because every outlet is discussing it.",
     "preserveActiveStoryArc": true,
-    "exception": "An already approved multi-part story cycle may continue without interruption. The cap applies to new hype-driven insertions; exceptions require a clear editorial reason or owner approval.",
+    "exception": "The cap applies to new hype-driven insertions; an already approved multi-part story cycle may continue without interruption.",
     "defaultWeeklyMixWhenNoActiveSerialCommitment": {
       "trendOrLaunchTopics": 2,
       "ongoingStoryAndBacklog": 3,
