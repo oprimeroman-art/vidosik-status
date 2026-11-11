@@ -94,7 +94,8 @@
     "next_production_runs": "06:00/08:00/11:00/16:00 Moscow",
     "last_verified_production": "2026-11-11T06:19:00+03:00",
     "last_completed_arc": "F.E.A.R. 2",
-    "next_arc": "Tenebris Somnia"
+    "next_arc": "Tenebris Somnia",
+    "automation_update_status": "Task service returned unexpected error on update; verified by read-only peek that saved prompts and schedules remain unchanged."
   },
   "rotation": {
     "mode": "adaptive_two_series",
@@ -145,8 +146,8 @@
       ]
     },
     "production_state_source": "Private production ledger, YouTube public URL and Metricool PUBLISHED state are authoritative.",
-    "activation_status": "editorial_queue_ready; automation_service_update_blocked",
-    "production_currently": "Existing production automation still has one-short daily schedule; adaptive 1–3 slots are not active until task service accepts prompt and schedule updates.",
+    "activation_status": "pending_task_service_update",
+    "production_currently": "Внимание: задачи Planner и ВИДОСИК пока сохранили старые расписания. Действующий режим — один Short в день; дополнительные слоты 13:00 и 18:00 ещё не включены.",
     "activation_verified_at": "2026-11-11"
   }
 }
