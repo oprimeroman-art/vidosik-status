@@ -42,6 +42,7 @@ ul{padding-left:20px;margin:8px 0}li{margin:7px 0}a{color:var(--accent);text-dec
 <h2 id="rotation-title">Ротация выпусков</h2>
 <p id="rotation-summary">Обычно 1 Short. До 3 при хорошем поводе, интервалы около 5 часов.</p>
 <p class="small" id="rotation-day">Следующий план — 12 ноября</p>
+<p class="small" id="rotation-activation">Пока действует прежний режим: один Short в день. Дополнительная автоматика ожидает включения.</p>
 <div id="rotation-slots"><div class="subrow"><strong>08:00 — F.E.A.R. 2</strong><p>Продолжение сюжета; внеплановые выпуски — только при сильном поводе.</p></div></div>
 <p class="small">Не более двух параллельных игр. Каждую доводим до финала.</p>
 </section>
@@ -98,6 +99,7 @@ if(d.rotation){
  const ro=d.rotation,p=ro.next_daily_plan||{};
  set('rotation-summary','Обычно '+ro.standard_count+' Short. До '+ro.maximum_count+' только при поводе и возможностях производства; публикации с интервалом около '+ro.minimum_planned_spacing_hours+' часов.');
  set('rotation-day',p.date?'План на '+p.date+' (МСК)'+(p.state==='provisional'?' · предварительный':''):'План уточняется');
+ set('rotation-activation',ro.activation_status==='pending_task_service_update'?'Пока работает старый режим: 1 Short в день. Дополнительные слоты ещё не активированы.':'');
  const parent=document.getElementById('rotation-slots');parent.replaceChildren();
  for(const s of p.slots||[]){const div=document.createElement('div');div.className='subrow';const b=document.createElement('strong');b.textContent=s.target_time+' — '+s.game;const note=document.createElement('p');note.textContent=s.reason||'';div.append(b,note);parent.append(div)}
 }

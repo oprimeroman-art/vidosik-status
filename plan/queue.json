@@ -147,6 +147,9 @@
         }
       ]
     },
-    "production_state_source": "Private production ledger and Metricool actual statuses are authoritative. Recommendations never count as published."
+    "production_state_source": "Private production ledger and Metricool actual statuses are authoritative. Recommendations never count as published.",
+    "activation_status": "pending_task_service_update",
+    "production_currently": "one Short per day; two or three publication slots not enabled in automation yet",
+    "activation_verified_at": "2026-11-11"
   }
 }
