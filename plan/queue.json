@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "snapshot_date": "2026-11-11",
-  "snapshot_label": "11 ноября 2026 · финал F.E.A.R. подтверждён",
+  "snapshot_label": "11 ноября 2026 · ротация включена, план на завтра готов",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "F.E.A.R. 2: Project Origin",
@@ -86,16 +86,19 @@
   "meta": {
     "data_type": "dated editorial snapshot",
     "public_info_only": true,
-    "update_cadence": "daily around 04:00 Moscow via existing Planner automation",
+    "update_cadence": "Planner ежедневно в 13:00 МСК формирует план на следующий день",
     "source": "Existing private editorial brief and verified official YouTube/Steam signals",
     "do_not_infer_published_from_recommendation": true,
     "rotation_policy_updated": "2026-11-11",
     "no_forced_extras": true,
-    "next_production_runs": "06:00/08:00/11:00/16:00 Moscow",
+    "next_production_runs": "12 ноября: 06:00 запуск, 08:00 контроль; целевая публикация 08:00–09:00 МСК",
     "last_verified_production": "2026-11-11T06:19:00+03:00",
     "last_completed_arc": "F.E.A.R. 2",
     "next_arc": "Tenebris Somnia",
-    "automation_update_status": "Task service returned unexpected error on update; verified by read-only peek that saved prompts and schedules remain unchanged."
+    "automation_update_status": "Task service returned unexpected error on update; verified by read-only peek that saved prompts and schedules remain unchanged.",
+    "planner_next_run": "2026-11-12T13:00:00+03:00",
+    "activation_status": "planner_and_production_prompts_updated_and_verified_2026-11-11",
+    "production_currently": "Режим ротации записан в обеих действующих автоматизациях. На 12 ноября назначен один Short — Tenebris Somnia, часть 1. До 3 слотов в день доступны только по конкретному плану Planner и при готовности производства; дополнительных слотов на завтра не назначено."
   },
   "rotation": {
     "mode": "adaptive_two_series",
@@ -112,7 +115,7 @@
     "minimum_planned_spacing_hours": 5,
     "maximum_concurrent_storylines": 2,
     "maximum_target_gap_hours_between_parts_of_same_game": 48,
-    "selection": "Planner chooses number, games and priorities by 04:00 Moscow. Producer makes 1–3 episodes if quality, quotas and true 5h spacing permit. Finish both arcs, no third opener.",
+    "selection": "Planner researches daily at 13:00 Moscow and writes the next calendar day's plan. Production at 06:00 reads today's plan and prepares 1–3 Shorts only when justified; 08:00 run verifies/continues. Default one Short. Target publication times 08:00,13:00,18:00 Moscow with ~5h spacing. Maximum two active storylines; finish each; no third until one is closed.",
     "hard_exclusions": [
       "GTA VI",
       "Unfinished story games",
@@ -133,7 +136,7 @@
     "next_daily_plan": {
       "date": "2026-11-12",
       "state": "ready",
-      "reason": "F.E.A.R. 2 завершена по фактическому производственному отчёту. Следующий утверждённый сюжет — Tenebris Somnia.",
+      "reason": "F.E.A.R. 2 part 5 is confirmed as the canonical ending and is already PUBLISHED. Tenebris Somnia is owner-approved and is the next story.",
       "planned_count": 1,
       "slots": [
         {
@@ -141,7 +144,7 @@
           "game": "Tenebris Somnia",
           "action": "start_approved_story",
           "episode": "part_1",
-          "reason": "Начать следующую утверждённую историю; перед сценарием проверить полный канонический сюжет."
+          "reason": "Start the next approved storyline. Prepare at 06:00 and publish after QA in the 08:00–09:00 window."
         }
       ]
     },
