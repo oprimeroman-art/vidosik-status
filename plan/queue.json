@@ -1,52 +1,53 @@
 {
   "schema": 2,
-  "snapshot_date": "2026-11-11",
-  "snapshot_label": "11 ноября 2026 · ротация включена, план на завтра готов",
+  "snapshot_date": "2026-11-12",
+  "snapshot_label": "12 ноября 2026 · исследование на 13 ноября, 13:20 МСК",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "F.E.A.R. 2: Project Origin",
     "status": "completed",
     "published_parts": 5,
-    "summary": "Сюжетный цикл завершён. Часть 5 опубликована 11 ноября в 06:19 МСК; производственный отчёт подтвердил завершение основной истории.",
+    "summary": "5/5 опубликовано; финал 11.11. Tenebris Somnia на 12.11 13:20 МСК ещё не подтверждена как PUBLISHED.",
     "public_url": "https://www.youtube.com/shorts/oFxYChmRbMU"
   },
   "next": {
     "game": "Tenebris Somnia",
     "approved": true,
     "approval": "owner 2026-11-11",
-    "status": "Следующая · запуск в ближайшую производственную смену",
-    "handoff": "F.E.A.R. 2 завершена. Tenebris Somnia — следующая игра; начинаем с части 1 без дополнительного согласования.",
-    "reason": "Владелец утвердил игру. Завершённый атмосферный хоррор с цельным сюжетом и подтверждённым зрительским интересом.",
+    "status": "Утверждена; публичный старт на 12.11 13:20 МСК не подтверждён",
+    "handoff": "Продолжить утверждённую Tenebris Somnia: выпустить следующую НЕопубликованную часть, без дублей; не менять на другую игру.",
+    "reason": "Полный релиз и законченный канон; 10-серийное прохождение с финалом; подтверждённый интерес русскоязычных зрителей.",
     "evidence": [
       {
-        "text": "Вышла 16 октября 2026 года; полноценный одиночный survival horror.",
+        "text": "Steam: релиз 16.10.2026, 94% положительных из 1 714 отзывов (проверено 12.11).",
         "url": "https://store.steampowered.com/app/2121510/Tenebris_Somnia/"
       },
       {
-        "text": "Куплинов: 10 частей; 1-я часть — 1 463 281 просмотр (срез 11 ноября).",
+        "text": "Куплинов: 1-я часть 23.10 — 1 470 049 просмотров; 10-я, финал 04.11 — 102 720 (срез 12.11).",
         "url": "https://www.youtube.com/watch?v=M6QVk4odkog"
       },
       {
-        "text": "Steam: 94% положительных отзывов из 1 714 (срез 10 ноября).",
-        "url": "https://charts.game/games/2121510-tenebris-somnia/reviews"
+        "text": "Независимый полный разбор истории и 4 финалов от 29.10 — 8 838 просмотров (срез 12.11); конкуренция уже есть.",
+        "url": "https://www.youtube.com/watch?v=giPP7jdzE5g"
       }
     ]
   },
   "reserve": [
     {
-      "game": "Five Signals",
-      "note": "Куплинов: 343 935 просмотров на выпуске от 10 ноября. Проверяем, есть ли достаточный законченный сюжет."
+      "game": "CH13: Rest Stop",
+      "note": "Приоритет №1 после старта Tenebris: релиз 28.10, сюжет ~1 час; Куплинов 07.11 — 616 594 просмотров, Steam 92% из 235 отзывов."
     },
     {
-      "game": "Resident Evil Requiem",
-      "note": "Высокий глобальный спрос, но высокая конкуренция. Нужна отдельная оценка сюжетных пересказов."
+      "game": "Five Signals",
+      "note": "Релиз 30.10, сюжетный хоррор; Куплинов 10.11 — 420 356 просмотров, но независимый спрос пока слабее; проверить финал."
     },
     {
       "game": "Silent Hill: Townfall",
-      "note": "Сюжет подходит; прохождения популярны, но первая волна интереса уже прошла."
+      "note": "Канон и финалы доступны, но уже есть полные объяснения; длиннее и конкурентнее коротких инди."
     }
   ],
   "closed": [
+    "F.E.A.R. 2",
     "Postal",
     "Half-Life"
   ],
@@ -86,19 +87,25 @@
   "meta": {
     "data_type": "dated editorial snapshot",
     "public_info_only": true,
-    "update_cadence": "Planner ежедневно в 13:00 МСК формирует план на следующий день",
-    "source": "Existing private editorial brief and verified official YouTube/Steam signals",
-    "do_not_infer_published_from_recommendation": true,
-    "rotation_policy_updated": "2026-11-11",
-    "no_forced_extras": true,
-    "next_production_runs": "12 ноября: 06:00 запуск, 08:00 контроль; целевая публикация 08:00–09:00 МСК",
-    "last_verified_production": "2026-11-11T06:19:00+03:00",
+    "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
+    "source": "StopGame → PlayGround → IGM → Куплинов → SNG Games (read-only) → YouTube Gaming RU/US/GB/JP → Steam",
+    "youtube_market_snapshot": "12.11: GTA VI official preload 10.11 — 9 842 468 просмотров (US/GB/RU); исключена до релиза. RU: Kuplinov Probably Stolen #5 — 172 880, но сюжетная цель симулятора не подходит.",
+    "publication_check": "12.11 13:20 МСК: public YouTube uploads and private RELEASE_LEDGER.jsonl read-only; no Tenebris PUBLISHED entry.",
+    "no_channel_analytics": true,
+    "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
-    "next_arc": "Tenebris Somnia",
-    "automation_update_status": "Task service returned unexpected error on update; verified by read-only peek that saved prompts and schedules remain unchanged.",
-    "planner_next_run": "2026-11-12T13:00:00+03:00",
-    "activation_status": "planner_and_production_prompts_updated_and_verified_2026-11-11",
-    "production_currently": "Режим ротации записан в обеих действующих автоматизациях. На 12 ноября назначен один Short — Tenebris Somnia, часть 1. До 3 слотов в день доступны только по конкретному плану Planner и при готовности производства; дополнительных слотов на завтра не назначено."
+    "candidate_evidence": [
+      {
+        "game": "CH13: Rest Stop",
+        "text": "Куплинов 07.11 — 616 594; Steam 28.10, 92% из 235, ~1 час.",
+        "url": "https://store.steampowered.com/app/3927170/CH13_Rest_Stop/"
+      },
+      {
+        "game": "Five Signals",
+        "text": "Куплинов 10.11 — 420 356; Steam 30.10.",
+        "url": "https://www.youtube.com/watch?v=2wqUWuj30ls"
+      }
+    ]
   },
   "rotation": {
     "mode": "adaptive_two_series",
@@ -132,25 +139,29 @@
       "approved_at": "2026-11-11",
       "auto_start": true
     },
-    "next_story_candidate": null,
+    "next_story_candidate": {
+      "game": "CH13: Rest Stop",
+      "status": "reserve_not_started",
+      "reason": "Около 1 часа, законченный сюжет, 616 594 просмотров у Куплинова; не вытесняет Tenebris."
+    },
     "next_daily_plan": {
-      "date": "2026-11-12",
-      "state": "ready",
-      "reason": "F.E.A.R. 2 part 5 is confirmed as the canonical ending and is already PUBLISHED. Tenebris Somnia is owner-approved and is the next story.",
+      "date": "2026-11-13",
+      "state": "provisional",
+      "reason": "На 12.11 13:20 МСК Tenebris не найдена среди публичных загрузок и в RELEASE_LEDGER.jsonl. Запланирован 1 Short без дубля; если часть 1 выйдет позднее 12.11, выпускать часть 2, иначе часть 1.",
       "planned_count": 1,
       "slots": [
         {
           "target_time": "08:00",
           "game": "Tenebris Somnia",
-          "action": "start_approved_story",
-          "episode": "part_1",
-          "reason": "Start the next approved storyline. Prepare at 06:00 and publish after QA in the 08:00–09:00 window."
+          "action": "start_or_continue_approved_story",
+          "episode": "next_unpublished_part",
+          "reason": "Сначала перепроверить PUBLISHED URL и ledger. 12.11 часть 1 вышла — продолжить частью 2; иначе выпустить часть 1. Не публиковать повторно."
         }
       ]
     },
     "production_state_source": "Private production ledger, YouTube public URL and Metricool PUBLISHED state are authoritative.",
-    "activation_status": "pending_task_service_update",
-    "production_currently": "Внимание: задачи Planner и ВИДОСИК пока сохранили старые расписания. Действующий режим — один Short в день; дополнительные слоты 13:00 и 18:00 ещё не включены.",
-    "activation_verified_at": "2026-11-11"
+    "activation_status": "editorial_rotation_active_public_start_unverified",
+    "production_currently": "Публично подтверждены F.E.A.R. 2 часть 5 и полный фильм. Tenebris 12.11 на 13:20 МСК не подтверждена; дополнительный слот не назначен.",
+    "activation_verified_at": "2026-11-12"
   }
 }
