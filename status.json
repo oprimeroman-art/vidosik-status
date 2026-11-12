@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "title": "ВИДОСИК byGagarin",
   "description": "Публичная информационная панель YouTube-канала: статистика, последние выпуски, очередь сюжетов и редакционная система трендов.",
   "access": "public_read_only",
@@ -70,6 +70,12 @@
   ],
   "recentEpisodes": [
     {
+      "title": "F.E.A.R. 2: Project Origin — Полная история | ВИДОСИК",
+      "date": "2026-11-12",
+      "views": null,
+      "url": "https://www.youtube.com/watch?v=EOdCHIgRY8E"
+    },
+    {
       "title": "F.E.A.R. 2 — Часть 5: Ловушка Аристид",
       "date": "2026-11-11",
       "views": 25,
@@ -90,27 +96,28 @@
   ],
   "currentSeries": [
     {
+      "name": "Tenebris Somnia",
+      "publishedParts": 0,
+      "status": "Часть 1 в производстве: 32 реплики озвучены и архивированы, иллюстрации пока заблокированы лимитом генерации; не опубликовано."
+    },
+    {
       "name": "F.E.A.R. 2: Project Origin",
       "publishedParts": 5,
-      "status": "Пять частей опубликовано; полнота финала сюжета ещё проверяется."
+      "status": "Сюжет закрыт: 5 Shorts и полная история опубликованы 12 ноября."
     },
     {
       "name": "Half-Life",
       "publishedParts": 5,
-      "status": "Пять сюжетных выпусков; серия — лидер по просмотрам."
+      "status": "Сюжетная серия закрыта владельцем."
     },
     {
       "name": "POSTAL",
       "publishedParts": 3,
-      "status": "Есть несколько выпусков; покрытие всей серии не завершено."
+      "status": "Сюжетная серия закрыта владельцем."
     }
   ],
   "nextQueue": [
-    "Postal 2",
-    "Postal 3",
-    "Штопор жжот",
-    "Silent Hill",
-    "Max Payne 2"
+    "Tenebris Somnia — часть 1 (в производстве)"
   ],
   "sourcePriority": [
     {
