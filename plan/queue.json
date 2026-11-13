@@ -1,49 +1,49 @@
 {
   "schema": 2,
-  "snapshot_date": "2026-11-12",
-  "snapshot_label": "12 ноября 2026 · исследование на 13 ноября, 13:20 МСК",
+  "snapshot_date": "2026-11-13",
+  "snapshot_label": "13 ноября 2026 · исследование на 14 ноября, 13:00 МСК",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "F.E.A.R. 2: Project Origin",
     "status": "completed",
     "published_parts": 5,
-    "summary": "5/5 опубликовано; финал 11.11. Tenebris Somnia на 12.11 13:20 МСК ещё не подтверждена как PUBLISHED.",
+    "summary": "5/5 опубликовано; финал 11.11. Tenebris Somnia на дневную проверку 13.11 ещё не опубликована.",
     "public_url": "https://www.youtube.com/shorts/oFxYChmRbMU"
   },
   "next": {
     "game": "Tenebris Somnia",
     "approved": true,
     "approval": "owner 2026-11-11",
-    "status": "Утверждена; публичный старт на 12.11 13:20 МСК не подтверждён",
-    "handoff": "Продолжить утверждённую Tenebris Somnia: выпустить следующую НЕопубликованную часть, без дублей; не менять на другую игру.",
-    "reason": "Полный релиз и законченный канон; 10-серийное прохождение с финалом; подтверждённый интерес русскоязычных зрителей.",
+    "status": "Утверждена; публичный выпуск 1-й части пока не подтверждён",
+    "handoff": "Выпустить первую НЕопубликованную часть Tenebris Somnia только после полной сборки и QA; перед выпуском перепроверить публичные URL и журнал, исключить дубли.",
+    "reason": "Релиз 16.10; доступен финал; сильный интерес к сюжетному прохождению и объяснениям. Согласованную игру не вытеснять.",
     "evidence": [
       {
-        "text": "Steam: релиз 16.10.2026, 94% положительных из 1 714 отзывов (проверено 12.11).",
+        "text": "Steam: полная версия с 16.10.2026; сюжетный survival horror с игровыми и киноэпизодами.",
         "url": "https://store.steampowered.com/app/2121510/Tenebris_Somnia/"
       },
       {
-        "text": "Куплинов: 1-я часть 23.10 — 1 470 049 просмотров; 10-я, финал 04.11 — 102 720 (срез 12.11).",
+        "text": "Куплинов: старт 23.10 — 1 481 668 просмотров; финал #10 от 04.11 — 105 340 (срез 13.11).",
         "url": "https://www.youtube.com/watch?v=M6QVk4odkog"
       },
       {
-        "text": "Независимый полный разбор истории и 4 финалов от 29.10 — 8 838 просмотров (срез 12.11); конкуренция уже есть.",
-        "url": "https://www.youtube.com/watch?v=giPP7jdzE5g"
+        "text": "Независимый разбор сюжета и концовок Life is Game от 05.11 — 122 211 просмотров (13.11).",
+        "url": "https://www.youtube.com/watch?v=ELcQguWlnww"
       }
     ]
   },
   "reserve": [
     {
       "game": "CH13: Rest Stop",
-      "note": "Приоритет №1 после старта Tenebris: релиз 28.10, сюжет ~1 час; Куплинов 07.11 — 616 594 просмотров, Steam 92% из 235 отзывов."
+      "note": "№1 после старта Tenebris: релиз 28.10, ~1 ч; Куплинов 07.11 — 632 024, Kubz Scouts 03.11 — 374 327; короткий законченный хоррор."
     },
     {
       "game": "Five Signals",
-      "note": "Релиз 30.10, сюжетный хоррор; Куплинов 10.11 — 420 356 просмотров, но независимый спрос пока слабее; проверить финал."
+      "note": "№2: релиз 30.10, ~1 ч; Куплинов 10.11 — 499 568; независимый спрос пока заметно слабее CH13."
     },
     {
-      "game": "Silent Hill: Townfall",
-      "note": "Канон и финалы доступны, но уже есть полные объяснения; длиннее и конкурентнее коротких инди."
+      "game": "Giggleland",
+      "note": "№3: 8 сюжетных глав; windy31 30.10 — 451 400, Thinknoodles 31.10 — 282 934, но уже есть объяснения сюжета на 106 105+ просмотров."
     }
   ],
   "closed": [
@@ -89,23 +89,29 @@
     "public_info_only": true,
     "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
     "source": "StopGame → PlayGround → IGM → Куплинов → SNG Games (read-only) → YouTube Gaming RU/US/GB/JP → Steam",
-    "youtube_market_snapshot": "12.11: GTA VI official preload 10.11 — 9 842 468 просмотров (US/GB/RU); исключена до релиза. RU: Kuplinov Probably Stolen #5 — 172 880, но сюжетная цель симулятора не подходит.",
-    "publication_check": "12.11 13:20 МСК: public YouTube uploads and private RELEASE_LEDGER.jsonl read-only; no Tenebris PUBLISHED entry.",
+    "youtube_market_snapshot": "13.11: официальный Gaming mostPopular проверен для RU/US/GB/JP (первые 40 каждого); общая выдача занята GTA VI, Minecraft, Roblox, стримами и прохождениями, не прямое доказательство спроса на выбранные инди. Кандидаты оценены отдельным поиском и проверкой видео.",
+    "publication_check": "13.11: публичные загрузки канала просмотрены; Tenebris Somnia не найдена среди опубликованных видео. Последний публичный выпуск — полный фильм F.E.A.R. 2 от 12.11.",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
     "candidate_evidence": [
       {
         "game": "CH13: Rest Stop",
-        "text": "Куплинов 07.11 — 616 594; Steam 28.10, 92% из 235, ~1 час.",
+        "text": "Steam 28.10, сюжет ~1 час; Куплинов 07.11 — 632 024, Kubz Scouts 03.11 — 374 327, KingWoolz 02.11 — 241 925 (YouTube, 13.11).",
         "url": "https://store.steampowered.com/app/3927170/CH13_Rest_Stop/"
       },
       {
         "game": "Five Signals",
-        "text": "Куплинов 10.11 — 420 356; Steam 30.10.",
+        "text": "Steam 30.10; Куплинов 10.11 — 499 568; независимый полный longplay i Scream Games 01.11 — 5 978 (YouTube, 13.11).",
         "url": "https://www.youtube.com/watch?v=2wqUWuj30ls"
+      },
+      {
+        "game": "Giggleland",
+        "text": "windy31 30.10 — 451 400; Thinknoodles 31.10 — 282 934; GamerSault разбор 07.11 — 106 105; конкуренция в пересказах уже высокая.",
+        "url": "https://www.youtube.com/watch?v=1V9tAxe9SJc"
       }
-    ]
+    ],
+    "research_limitations": "Нет сопоставимого 7/30-дневного ряда просмотров по всем авторам: цифры — текущий срез 13.11, а не измеренный прирост. Поисковые totalResults не считались реальным числом роликов."
   },
   "rotation": {
     "mode": "adaptive_two_series",
@@ -142,12 +148,12 @@
     "next_story_candidate": {
       "game": "CH13: Rest Stop",
       "status": "reserve_not_started",
-      "reason": "Около 1 часа, законченный сюжет, 616 594 просмотров у Куплинова; не вытесняет Tenebris."
+      "reason": "~1 час, завершённая история; 632 024 у Куплинова и 374 327 у Kubz Scouts; не вытесняет Tenebris."
     },
     "next_daily_plan": {
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "state": "provisional",
-      "reason": "На 12.11 13:20 МСК Tenebris не найдена среди публичных загрузок и в RELEASE_LEDGER.jsonl. Запланирован 1 Short без дубля; если часть 1 выйдет позднее 12.11, выпускать часть 2, иначе часть 1.",
+      "reason": "На дневную проверку 13.11 публичный выпуск Tenebris не подтверждён. Один слот на первую ещё не опубликованную часть, только при готовности полного MP4 и QA; при неготовности не публиковать незавершённое.",
       "planned_count": 1,
       "slots": [
         {
@@ -155,13 +161,13 @@
           "game": "Tenebris Somnia",
           "action": "start_or_continue_approved_story",
           "episode": "next_unpublished_part",
-          "reason": "Сначала перепроверить PUBLISHED URL и ledger. 12.11 часть 1 вышла — продолжить частью 2; иначе выпустить часть 1. Не публиковать повторно."
+          "reason": "Перед публикацией проверить уже опубликованные части. Если часть 1 отсутствует — сначала она; если вышла позднее проверки — продолжить следующей. Без дублей, только после QA."
         }
       ]
     },
     "production_state_source": "Private production ledger, YouTube public URL and Metricool PUBLISHED state are authoritative.",
-    "activation_status": "editorial_rotation_active_public_start_unverified",
-    "production_currently": "Публично подтверждены F.E.A.R. 2 часть 5 и полный фильм. Tenebris 12.11 на 13:20 МСК не подтверждена; дополнительный слот не назначен.",
-    "activation_verified_at": "2026-11-12"
+    "activation_status": "approved_next_not_publicly_started",
+    "production_currently": "Публично подтверждён финал F.E.A.R. 2; выпуск Tenebris Somnia пока не найден среди публичных загрузок.",
+    "activation_verified_at": "2026-11-13"
   }
 }
