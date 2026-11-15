@@ -4,11 +4,10 @@
   "snapshot_label": "15 ноября 2026 · исследование на 16 ноября, 13:22 МСК",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
-    "game": "F.E.A.R. 2: Project Origin",
-    "status": "completed",
-    "published_parts": 5,
-    "summary": "F.E.A.R. 2: 5/5 завершено 11.11; публичный старт Tenebris Somnia на 15.11 не подтверждён при доступной проверке.",
-    "public_url": "https://www.youtube.com/shorts/oFxYChmRbMU"
+    "game": "Tenebris Somnia",
+    "status": "production-recovery",
+    "published_parts": 0,
+    "summary": "Восстановление первой части; YouTube API не подтвердил публикацию после F.E.A.R. 2. Публикация только после проверки готового MP4."
   },
   "next": {
     "game": "Tenebris Somnia",
@@ -114,60 +113,22 @@
     "research_limitations": "Не подтверждён PUBLISHED URL Tenebris; production ledger не прочитан. Показатели CH13 подтверждены YouTube API; 7/30-дневные ряды и конкуренция полноценных пересказов не измерены."
   },
   "rotation": {
-    "mode": "adaptive_two_series",
-    "rule_version": "2026-11-11-v1",
-    "timezone": "Europe/Moscow",
-    "target_times": [
-      "08:00",
-      "13:00",
-      "18:00"
-    ],
-    "standard_count": 1,
-    "maximum_count": 3,
-    "extra_rule": "Only when verified trend opportunity plus enough render/QA/TTS/publishing capacity. Zero compulsory extras.",
-    "minimum_planned_spacing_hours": 5,
-    "maximum_concurrent_storylines": 2,
-    "maximum_target_gap_hours_between_parts_of_same_game": 48,
-    "selection": "Planner researches daily at 13:00 Moscow and writes the next calendar day's plan. Production at 06:00 reads today's plan and prepares 1–3 Shorts only when justified; 08:00 run verifies/continues. Default one Short. Target publication times 08:00,13:00,18:00 Moscow with ~5h spacing. Maximum two active storylines; finish each; no third until one is closed.",
-    "hard_exclusions": [
-      "GTA VI",
-      "Unfinished story games",
-      "Major releases with long campaigns",
-      "Games without a coherent canonical plot",
-      "Postal (closed)",
-      "Half-Life (closed)"
-    ],
-    "preferred_story_length": "Roughly 3 gameplay hours; owner-approved Tenebris Somnia and ongoing F.E.A.R. exempt. Estimate 2–5 Shorts for most new arcs; extend only if story demands it.",
     "active_storylines": [],
-    "approved_next": {
-      "game": "Tenebris Somnia",
-      "approved_by": "owner",
-      "approved_at": "2026-11-11",
-      "auto_start": true
-    },
-    "next_story_candidate": {
-      "game": "CH13: Rest Stop",
-      "status": "reserve_not_started",
-      "reason": "650 444 / 385 505 просмотров у двух независимых каналов на 15.11; короткий завершённый хоррор."
-    },
-    "next_daily_plan": {
-      "date": "2026-11-16",
-      "state": "provisional",
-      "reason": "Нет подтверждённого PUBLISHED URL Tenebris Somnia и сверки production ledger; сохраняем утверждённый сюжет, не запускаем резерв вместо него.",
-      "planned_count": 1,
-      "slots": [
-        {
-          "target_time": "08:00",
-          "game": "Tenebris Somnia",
-          "action": "start_or_continue_approved_story",
-          "episode": "next_unpublished_part",
-          "reason": "Проверить YouTube/ledger и качество готового MP4 перед выпуском; исключить повтор."
-        }
-      ]
-    },
-    "production_state_source": "Private production ledger, YouTube public URL and Metricool PUBLISHED state are authoritative.",
-    "activation_status": "approved_next_not_publicly_verified_as_started",
-    "production_currently": "Публично подтверждён финал F.E.A.R. 2; Tenebris Somnia среди опубликованных роликов на 14.11 не обнаружена.",
-    "activation_verified_at": "2026-11-15"
+    "approved_next": "Tenebris Somnia — часть 1 (ожидает подтверждённой публикации)"
+  },
+  "next_daily_plan": {
+    "date": "2026-11-16",
+    "state": "provisional",
+    "reason": "Один выпуск в сутки, начиная с Tenebris Somnia part 1; требуется подтверждённый рендер и публикация.",
+    "planned_count": 1,
+    "slots": [
+      {
+        "target_time": "08:00",
+        "game": "Tenebris Somnia",
+        "episode": "Часть 1",
+        "action": "Собрать, проверить и опубликовать; при подтверждённой существующей публикации перейти к части 2",
+        "reason": "Восстановление ежедневного конвейера"
+      }
+    ]
   }
 }
