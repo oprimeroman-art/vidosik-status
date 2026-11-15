@@ -1,22 +1,27 @@
 {
   "schema": 2,
   "snapshot_date": "2026-11-15",
-  "snapshot_label": "15 ноября 2026 · исследование на 16 ноября, 13:22 МСК",
+  "snapshot_label": "15 ноября 2026 · часть 1 опубликована, план на 16 ноября",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "Tenebris Somnia",
-    "status": "production-recovery",
-    "published_parts": 0,
-    "summary": "Восстановление первой части; YouTube API не подтвердил публикацию после F.E.A.R. 2. Публикация только после проверки готового MP4."
+    "status": "active",
+    "published_parts": 1,
+    "summary": "Часть 1 «Сделка Ивана» опубликована 15 ноября в 21:35 МСК.",
+    "public_url": "https://www.youtube.com/shorts/rYHWJlZqhzw"
   },
   "next": {
     "game": "Tenebris Somnia",
     "approved": true,
     "approval": "owner 2026-11-11",
-    "status": "Утверждена; публикация первой части Tenebris Somnia не подтверждена на 15.11",
-    "handoff": "16.11: сначала сверить YouTube и production ledger; выпустить только следующую действительно неопубликованную часть после QA.",
+    "status": "В производстве · часть 1 опубликована 15 ноября, 21:35 МСК",
+    "handoff": "16 ноября, 08:00 МСК — плановый выпуск части 2 после сборки и проверки.",
     "reason": "Релиз 16.10; сюжет и финал доступны. Выбор владельца 11.11 сохраняется, CH13 его не вытесняет.",
     "evidence": [
+      {
+        "text": "Смотреть часть 1 — «Сделка Ивана» (2:19).",
+        "url": "https://www.youtube.com/shorts/rYHWJlZqhzw"
+      },
       {
         "text": "Steam: полная версия с 16.10.2026, сюжетный хоррор с киноэпизодами.",
         "url": "https://store.steampowered.com/app/2121510/Tenebris_Somnia/"
@@ -66,12 +71,10 @@
     "automatic_editorial_selection": true,
     "no_manual_approval_needed": true,
     "baseline_shorts_per_day": 1,
-    "max_shorts_per_day": 3,
+    "max_shorts_per_day": 1,
     "max_active_series": 2,
     "publish_target_hours_moscow": [
-      "08:00",
-      "13:00",
-      "18:00"
+      "08:00"
     ],
     "min_gap_between_shorts_hours": 5,
     "no_big_release_games": true,
@@ -110,24 +113,51 @@
         "url": "https://www.youtube.com/watch?v=yhmq0FW3nEc"
       }
     ],
-    "research_limitations": "Не подтверждён PUBLISHED URL Tenebris; production ledger не прочитан. Показатели CH13 подтверждены YouTube API; 7/30-дневные ряды и конкуренция полноценных пересказов не измерены."
+    "research_limitations": "Исследование от 15 ноября предшествовало выходу первой части. Факт публикации проверен по YouTube и внесён в производственный журнал."
   },
   "rotation": {
-    "active_storylines": [],
-    "approved_next": "Tenebris Somnia — часть 1 (ожидает подтверждённой публикации)"
+    "active_storylines": [
+      {
+        "game": "Tenebris Somnia",
+        "published_parts": 1,
+        "latest_public_url": "https://www.youtube.com/shorts/rYHWJlZqhzw"
+      }
+    ],
+    "approved_next": "Tenebris Somnia — часть 2",
+    "production_currently": "Tenebris Somnia: часть 1 вышла 15 ноября в 21:35 МСК. Следующая — часть 2.",
+    "activation_status": "active",
+    "activation_verified_at": "2026-11-15",
+    "standard_count": 1,
+    "maximum_count": 1,
+    "minimum_planned_spacing_hours": 24,
+    "next_daily_plan": {
+      "date": "2026-11-16",
+      "state": "planned",
+      "reason": "Первая часть опубликована. Продолжение по одной части в день.",
+      "planned_count": 1,
+      "slots": [
+        {
+          "target_time": "08:00",
+          "game": "Tenebris Somnia",
+          "episode": 2,
+          "action": "continue_approved_story",
+          "reason": "План: часть 2. Публикация после монтажа и проверки готового выпуска."
+        }
+      ]
+    }
   },
   "next_daily_plan": {
     "date": "2026-11-16",
-    "state": "provisional",
-    "reason": "Один выпуск в сутки, начиная с Tenebris Somnia part 1; требуется подтверждённый рендер и публикация.",
+    "state": "planned",
+    "reason": "Первая часть опубликована. Продолжение по одной части в день.",
     "planned_count": 1,
     "slots": [
       {
         "target_time": "08:00",
         "game": "Tenebris Somnia",
-        "episode": "Часть 1",
-        "action": "Собрать, проверить и опубликовать; при подтверждённой существующей публикации перейти к части 2",
-        "reason": "Восстановление ежедневного конвейера"
+        "episode": 2,
+        "action": "continue_approved_story",
+        "reason": "План: часть 2. Публикация после монтажа и проверки готового выпуска."
       }
     ]
   }
