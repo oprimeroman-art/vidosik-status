@@ -1,57 +1,49 @@
 {
   "schema": 2,
   "snapshot_date": "2026-11-16",
-  "snapshot_label": "16 ноября 2026 · часть 2 опубликована, план на 17 ноября",
+  "snapshot_label": "16 ноября 2026 · исследование на 17 ноября, 13:00 МСК",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "Tenebris Somnia",
     "status": "active",
     "published_parts": 2,
-    "summary": "Часть 2 «Сеанс Деборы» опубликована 16 ноября в 13:39 МСК.",
+    "summary": "Часть 1 опубликована 15.11, часть 2 «Сеанс Деборы» — 16.11 в 13:39 МСК. На 17.11 запланирована часть 3.",
     "public_url": "https://www.youtube.com/shorts/aHK-SI0j1qk"
   },
   "next": {
-    "game": "Tenebris Somnia",
+    "game": "CH13: Rest Stop",
     "approved": true,
-    "approval": "owner 2026-11-11",
-    "status": "Часть 2 «Сеанс Деборы» опубликована 16 ноября в 13:39 МСК.",
-    "handoff": "17 ноября, 08:00 МСК — целевое время третьей части.",
-    "reason": "Релиз 16.10; сюжет и финал доступны. Выбор владельца 11.11 сохраняется, CH13 его не вытесняет.",
+    "approval": "editorial-autoselection 2026-11-16",
+    "status": "Резерв следующего сюжетного цикла; не вытесняет Tenebris Somnia",
+    "handoff": "После завершения Tenebris Somnia или при доказанной свободной производственной мощности, не более одной серии в день.",
+    "reason": "Короткий законченный хоррор; подтверждённый интерес RU/EN и меньший масштаб конкуренции, чем у крупных сюжетных франшиз.",
     "evidence": [
       {
-        "text": "Смотреть часть 2 — «Сеанс Деборы».",
-        "url": "https://www.youtube.com/shorts/aHK-SI0j1qk"
+        "text": "Куплинов, 07.11: 659 614 просмотров, 25 770 лайков, 672 комментария (срез 16.11).",
+        "url": "https://www.youtube.com/watch?v=wQzNzrJuL6E"
       },
       {
-        "text": "Смотреть часть 1 — «Сделка Ивана» (2:19).",
-        "url": "https://www.youtube.com/shorts/rYHWJlZqhzw"
+        "text": "Независимый EN-сигнал Kubz Scouts: 385 505 просмотров по предыдущему срезу 15.11; не смешивать с текущими метриками.",
+        "url": "https://www.youtube.com/results?search_query=CH13+Rest+Stop+Kubz+Scouts"
       },
       {
-        "text": "Steam: полная версия с 16.10.2026, сюжетный хоррор с киноэпизодами.",
-        "url": "https://store.steampowered.com/app/2121510/Tenebris_Somnia/"
-      },
-      {
-        "text": "Куплинов: старт 23.10 — 1 493 156 просмотров, финал #10 от 04.11 — 107 598 (срез 14.11).",
-        "url": "https://www.youtube.com/watch?v=M6QVk4odkog"
-      },
-      {
-        "text": "Life is Game: разбор сюжета 05.11 — 124 486 просмотров (14.11).",
-        "url": "https://www.youtube.com/watch?v=ELcQguWlnww"
+        "text": "Steam: релиз 28.10.2026; короткая завершённая история, около часа (по предыдущему исследованию).",
+        "url": "https://store.steampowered.com/app/3927170/CH13_Rest_Stop/"
       }
     ]
   },
   "reserve": [
     {
-      "game": "CH13: Rest Stop",
-      "note": "№1, спрос подтверждён независимыми RU/EN прохождениями: Куплинов 07.11 — 650 444; Kubz Scouts 03.11 — 385 505; KingWoolz 02.11 — 245 927+ (15.11). Около часа, завершённый хоррор."
-    },
-    {
       "game": "Five Signals",
-      "note": "№2: Five Signals; Куплинов 10.11, более 536 872 просмотров на 14.11; независимый спрос слабее CH13."
+      "note": "Куплинов 10.11 — 597 913 просмотров, 18 941 лайк (срез 16.11); отдельный ролик The NeptooN 12.11 — 3 729. История подходит, независимый спрос слабее."
     },
     {
       "game": "BrokenLore: DON’T LIE",
-      "note": "№3: BrokenLore: DON’T LIE; Куплинов 13.11, 249 230 просмотров на 14.11; требуется проверка финала и конкуренции."
+      "note": "Куплинов 13.11 — 398 058 просмотров, 13 911 лайков; FLONDI 11.11 — 52 865. Проверить полноту канона и конкуренцию."
+    },
+    {
+      "game": "Leviathan: Rhino",
+      "note": "Куплинов 14.11 — 483 426 просмотров; BigGaming64 06.11 — 81 974. Короткая эмоциональная история, проверить варианты финала."
     }
   ],
   "closed": [
@@ -94,27 +86,32 @@
     "data_type": "dated editorial snapshot",
     "public_info_only": true,
     "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
-    "source": "StopGame → PlayGround → IGM.gg (релевантных новых сигналов не найдено) → Куплинов → SNG Games read-only → YouTube Gaming RU/US/GB/JP → Steam",
-    "youtube_market_snapshot": "15.11: официальные Gaming mostPopular RU/US/GB/JP проверены, чарты преимущественно Minecraft/LoL/стримы. CH13: Куплинов 650 444 просмотров, 25 243 лайка, 667 комментариев; Kubz Scouts 385 505, 17 262 лайка, 805 комментариев. Это независимые каналы, не массовый тренд по одному ролику.",
-    "publication_check": "15.11: независимого подтверждения PUBLISHED URL Tenebris Somnia не получено; приватный production ledger в этой смене не прочитан. Статус остаётся предварительным.",
+    "source": "StopGame → PlayGround → IGM.gg (в свежей выдаче не получены сопоставимые сигналы) → Куплинов → SNG Games (без новых проверенных данных) → YouTube Gaming RU/US/GB/JP → независимые YouTube-авторы; поиск 16.11",
+    "youtube_market_snapshot": "16.11: YouTube Gaming mostPopular RU/US/GB/JP: RU Minecraft/Roblox, US/GB GTA VI предрелиз и Minecraft, JP Dragon Quest/Minecraft. GTA VI трейлер TGG 15.11 — 1 812 829 просмотров, но канонический сюжет до релиза неизвестен. Не считать тренды платформы трендами сюжетных хорроров.",
+    "publication_check": "16.11: публичный YouTube API подтвердил части Tenebris Somnia: 15.11 (rYHWJlZqhzw) и 16.11 (aHK-SI0j1qk). Аналитика собственного канала не использовалась.",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
     "candidate_evidence": [
       {
         "game": "CH13: Rest Stop",
-        "text": "Steam 28.10, 93% положительных из 260 отзывов, ~1 ч. Куплинов 07.11 — 641 830, Kubz Scouts 03.11 — 380 380, KingWoolz 02.11 — 245 927 (14.11).",
-        "url": "https://store.steampowered.com/app/3927170/CH13_Rest_Stop/"
+        "text": "Куплинов 07.11 — 659 614 просмотров, 25 770 лайков (16.11); независимый Kubz Scouts — 385 505 по срезу 15.11.",
+        "url": "https://www.youtube.com/watch?v=wQzNzrJuL6E"
       },
       {
         "game": "Five Signals",
-        "text": "Steam 30.10; Куплинов 10.11 — 536 872 (+37 304 к срезу 13.11), независимые каналы с существенно меньшими просмотрами.",
+        "text": "Куплинов 10.11 — 597 913 просмотров (16.11); независимый The NeptooN 12.11 — 3 729.",
         "url": "https://www.youtube.com/watch?v=2wqUWuj30ls"
       },
       {
         "game": "BrokenLore: DON’T LIE",
-        "text": "Steam 10.09; Куплинов 13.11 — 249 230 к 14.11, видео присутствует в Gaming RU mostPopular; есть полное прохождение и финал, связана с DON’T WATCH.",
+        "text": "Куплинов 13.11 — 398 058 просмотров; FLONDI 11.11 — 52 865 (16.11).",
         "url": "https://www.youtube.com/watch?v=yhmq0FW3nEc"
+      },
+      {
+        "game": "Leviathan: Rhino",
+        "text": "Куплинов 14.11 — 483 426 просмотров; BigGaming64 06.11 — 81 974 (16.11).",
+        "url": "https://www.youtube.com/watch?v=pG3v_8sbCe8"
       }
     ],
     "research_limitations": "Исследование от 15 ноября предшествовало выходу первой части. Факт публикации проверен по YouTube и внесён в производственный журнал."
@@ -127,8 +124,8 @@
         "latest_public_url": "https://www.youtube.com/shorts/aHK-SI0j1qk"
       }
     ],
-    "approved_next": "Tenebris Somnia — часть 3",
-    "production_currently": "Часть 2 «Сеанс Деборы» опубликована 16 ноября в 13:39 МСК.",
+    "approved_next": "CH13: Rest Stop",
+    "production_currently": "Tenebris Somnia — часть 3 следующая",
     "activation_status": "active",
     "activation_verified_at": "2026-11-16",
     "standard_count": 1,
@@ -137,15 +134,15 @@
     "next_daily_plan": {
       "date": "2026-11-17",
       "state": "planned",
+      "reason": "Продолжить уже начатую Tenebris Somnia, без запуска второй истории и без дублей.",
       "planned_count": 1,
-      "reason": "Продолжение истории после выхода второй части.",
       "slots": [
         {
           "target_time": "08:00",
           "game": "Tenebris Somnia",
           "episode": 3,
           "action": "continue_approved_story",
-          "reason": "Часть 3. Выпустить один Short после проверки."
+          "reason": "Часть 3 после подтверждённых частей 1–2; публикация только после QA."
         }
       ]
     }
@@ -153,15 +150,15 @@
   "next_daily_plan": {
     "date": "2026-11-17",
     "state": "planned",
+    "reason": "Продолжить уже начатую Tenebris Somnia, без запуска второй истории и без дублей.",
     "planned_count": 1,
-    "reason": "Продолжение истории после выхода второй части.",
     "slots": [
       {
         "target_time": "08:00",
         "game": "Tenebris Somnia",
         "episode": 3,
         "action": "continue_approved_story",
-        "reason": "Часть 3. Выпустить один Short после проверки."
+        "reason": "Часть 3 после подтверждённых частей 1–2; публикация только после QA."
       }
     ]
   }
