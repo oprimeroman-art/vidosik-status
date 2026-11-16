@@ -1,23 +1,27 @@
 {
   "schema": 2,
-  "snapshot_date": "2026-11-15",
-  "snapshot_label": "15 ноября 2026 · часть 1 опубликована, план на 16 ноября",
+  "snapshot_date": "2026-11-16",
+  "snapshot_label": "16 ноября 2026 · часть 2 опубликована, план на 17 ноября",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "Tenebris Somnia",
     "status": "active",
-    "published_parts": 1,
-    "summary": "Часть 1 «Сделка Ивана» опубликована 15 ноября в 21:35 МСК.",
-    "public_url": "https://www.youtube.com/shorts/rYHWJlZqhzw"
+    "published_parts": 2,
+    "summary": "Часть 2 «Сеанс Деборы» опубликована 16 ноября в 13:39 МСК.",
+    "public_url": "https://www.youtube.com/shorts/aHK-SI0j1qk"
   },
   "next": {
     "game": "Tenebris Somnia",
     "approved": true,
     "approval": "owner 2026-11-11",
-    "status": "В производстве · часть 1 опубликована 15 ноября, 21:35 МСК",
-    "handoff": "16 ноября, 08:00 МСК — плановый выпуск части 2 после сборки и проверки.",
+    "status": "Часть 2 «Сеанс Деборы» опубликована 16 ноября в 13:39 МСК.",
+    "handoff": "17 ноября, 08:00 МСК — целевое время третьей части.",
     "reason": "Релиз 16.10; сюжет и финал доступны. Выбор владельца 11.11 сохраняется, CH13 его не вытесняет.",
     "evidence": [
+      {
+        "text": "Смотреть часть 2 — «Сеанс Деборы».",
+        "url": "https://www.youtube.com/shorts/aHK-SI0j1qk"
+      },
       {
         "text": "Смотреть часть 1 — «Сделка Ивана» (2:19).",
         "url": "https://www.youtube.com/shorts/rYHWJlZqhzw"
@@ -119,45 +123,45 @@
     "active_storylines": [
       {
         "game": "Tenebris Somnia",
-        "published_parts": 1,
-        "latest_public_url": "https://www.youtube.com/shorts/rYHWJlZqhzw"
+        "published_parts": 2,
+        "latest_public_url": "https://www.youtube.com/shorts/aHK-SI0j1qk"
       }
     ],
-    "approved_next": "Tenebris Somnia — часть 2",
-    "production_currently": "Tenebris Somnia: часть 1 вышла 15 ноября в 21:35 МСК. Следующая — часть 2.",
+    "approved_next": "Tenebris Somnia — часть 3",
+    "production_currently": "Часть 2 «Сеанс Деборы» опубликована 16 ноября в 13:39 МСК.",
     "activation_status": "active",
-    "activation_verified_at": "2026-11-15",
+    "activation_verified_at": "2026-11-16",
     "standard_count": 1,
     "maximum_count": 1,
     "minimum_planned_spacing_hours": 24,
     "next_daily_plan": {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "state": "planned",
-      "reason": "Первая часть опубликована. Продолжение по одной части в день.",
       "planned_count": 1,
+      "reason": "Продолжение истории после выхода второй части.",
       "slots": [
         {
           "target_time": "08:00",
           "game": "Tenebris Somnia",
-          "episode": 2,
+          "episode": 3,
           "action": "continue_approved_story",
-          "reason": "План: часть 2. Публикация после монтажа и проверки готового выпуска."
+          "reason": "Часть 3. Выпустить один Short после проверки."
         }
       ]
     }
   },
   "next_daily_plan": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "state": "planned",
-    "reason": "Первая часть опубликована. Продолжение по одной части в день.",
     "planned_count": 1,
+    "reason": "Продолжение истории после выхода второй части.",
     "slots": [
       {
         "target_time": "08:00",
         "game": "Tenebris Somnia",
-        "episode": 2,
+        "episode": 3,
         "action": "continue_approved_story",
-        "reason": "План: часть 2. Публикация после монтажа и проверки готового выпуска."
+        "reason": "Часть 3. Выпустить один Short после проверки."
       }
     ]
   }
