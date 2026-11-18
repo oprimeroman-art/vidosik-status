@@ -6,9 +6,9 @@
   "current": {
     "game": "Tenebris Somnia",
     "status": "active",
-    "published_parts": 3,
-    "summary": "Части 1–3 публичны (15–17 ноября); последняя — «Киношкола Ивана». История продолжается.",
-    "public_url": "https://www.youtube.com/shorts/I6QCsT7kS4U"
+    "published_parts": 4,
+    "summary": "Части 1–4 опубликованы 15–18 ноября. Последняя — «Проклятая плёнка». История продолжается.",
+    "public_url": "https://www.youtube.com/shorts/qNJ-Zz_-crg"
   },
   "next": {
     "game": "CH13: Rest Stop",
@@ -88,7 +88,7 @@
     "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
     "source": "StopGame → PlayGround → IGM.gg (в свежей выдаче не получены сопоставимые сигналы) → Куплинов → SNG Games (без новых проверенных данных) → YouTube Gaming RU/US/GB/JP → независимые YouTube-авторы; поиск 16.11",
     "youtube_market_snapshot": "16.11: YouTube Gaming mostPopular RU/US/GB/JP: RU Minecraft/Roblox, US/GB GTA VI предрелиз и Minecraft, JP Dragon Quest/Minecraft. GTA VI трейлер TGG 15.11 — 1 812 829 просмотров, но канонический сюжет до релиза неизвестен. Не считать тренды платформы трендами сюжетных хорроров.",
-    "publication_check": "17.11: YouTube подтвердил публичную часть 3, https://www.youtube.com/shorts/I6QCsT7kS4U",
+    "publication_check": "18.11: часть 4 подтверждена YouTube как public/processed/succeeded — https://www.youtube.com/shorts/qNJ-Zz_-crg",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
@@ -124,16 +124,16 @@
   },
   "next_daily_plan": {
     "date": "2026-11-19",
-    "state": "provisional",
-    "reason": "Один Short в день: продолжение Tenebris Somnia, если часть 4 подтверждена; не объявлять публикацию без публичной ссылки.",
+    "state": "planned",
+    "reason": "Часть 4 опубликована 18 ноября. Следующий выпуск — часть 5.",
     "planned_count": 1,
     "slots": [
       {
         "target_time": "08:00",
         "game": "Tenebris Somnia",
         "episode": 5,
-        "action": "continue_approved_story_if_part4_published_else_publish_part4",
-        "reason": "Часть 4 не подтверждена при этом исследовании; не пропускать номер."
+        "action": "continue_approved_story",
+        "reason": "Продолжение после подтверждённой части 4."
       }
     ]
   }
