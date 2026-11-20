@@ -6,9 +6,9 @@
   "current": {
     "game": "Tenebris Somnia",
     "status": "active",
-    "published_parts": 5,
-    "summary": "Подтверждены публичные части 1–5 (15–19 ноября). Часть 5 «За зеркалом» вышла 19.11 в 08:02 МСК; финал истории не подтверждён.",
-    "public_url": "https://www.youtube.com/shorts/yTztBr_UQmE"
+    "published_parts": 6,
+    "summary": "Части 1–6 публичны. Часть 6 «Предательство» опубликована 20.11.2026; история продолжается.",
+    "public_url": "https://www.youtube.com/shorts/qmKhy7I_gYQ"
   },
   "next": {
     "game": "CH13: Rest Stop",
@@ -70,7 +70,7 @@
     "max_shorts_per_day": 1,
     "max_active_series": 2,
     "publish_target_hours_moscow": [
-      "08:00"
+      "09:00"
     ],
     "min_gap_between_shorts_hours": 5,
     "no_big_release_games": true,
@@ -88,7 +88,7 @@
     "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
     "source": "StopGame → PlayGround → IGM.gg (в свежей выдаче не получены сопоставимые сигналы) → Куплинов → SNG Games (без новых проверенных данных) → YouTube Gaming RU/US/GB/JP → независимые YouTube-авторы; поиск 16.11",
     "youtube_market_snapshot": "16.11: YouTube Gaming mostPopular RU/US/GB/JP: RU Minecraft/Roblox, US/GB GTA VI предрелиз и Minecraft, JP Dragon Quest/Minecraft. GTA VI трейлер TGG 15.11 — 1 812 829 просмотров, но канонический сюжет до релиза неизвестен. Не считать тренды платформы трендами сюжетных хорроров.",
-    "publication_check": "18.11: части 1–4 публичны; часть 5 проверена и поставлена в Metricool на 19.11 08:00 МСК, статус PENDING. Не считать опубликованной.",
+    "publication_check": "20.11: часть 6 опубликована; YouTube public/processed/succeeded, https://www.youtube.com/shorts/qmKhy7I_gYQ",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
@@ -125,13 +125,13 @@
   "next_daily_plan": {
     "date": "2026-11-21",
     "state": "provisional",
-    "reason": "Публично подтверждена часть 5 от 19.11; выпуск 20.11 и готовность следующего MP4 не подтверждены. Продолжать последовательную историю без дублей.",
+    "reason": "Часть 6 опубликована 20.11. Продолжить с части 7; готовность будущего мастера и очереди пока не подтверждена.",
     "planned_count": 1,
     "slots": [
       {
-        "target_time": "08:00",
+        "target_time": "09:00",
         "game": "Tenebris Somnia",
-        "episode": "Следующая неопубликованная часть (проверить №6 и выпуск 20.11)",
+        "episode": "Часть 7 (подготовить и проверить)",
         "action": "Проверить YouTube и ledger, собрать и опубликовать следующий номер",
         "reason": "История активна, финал не подтверждён"
       }
