@@ -6,9 +6,9 @@
   "current": {
     "game": "Tenebris Somnia",
     "status": "active",
-    "published_parts": 6,
-    "summary": "Части 1–6 подтверждены в журнале публикаций (последняя 20.11); часть 7 на 21.11 не подтверждена. Канонический финал не подтверждён.",
-    "public_url": "https://www.youtube.com/shorts/qmKhy7I_gYQ",
+    "published_parts": 7,
+    "summary": "Части 1–7 публичны. Часть 7 вышла 21.11; части8/9 готовы, проверены и поставлены в Metricool на22/23.11 в09:00 МСК. Финал основных концовок — часть9, ещё не опубликован.",
+    "public_url": "https://www.youtube.com/shorts/oFKnt7ABczQ",
     "scheduled_parts": 0
   },
   "next": {
@@ -89,7 +89,7 @@
     "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
     "source": "StopGame → PlayGround → IGM.gg → Куплинов → SNG Games (read-only) → YouTube Gaming RU/US/GB/JP → независимые авторы; 21.11.2026",
     "youtube_market_snapshot": "21.11: Gaming mostPopular RU/US/GB преимущественно GTA VI, JP смешанный чарт; официальные чарты не показывают достаточного основания вытеснять нишевый хоррор. CH13 поддерживается тремя независимыми авторами; динамика 20→21.11 подтверждена по тем же видео.",
-    "publication_check": "21.11: RELEASE_LEDGER.jsonl подтверждает Tenebris Somnia 1–6, последняя 20.11 https://www.youtube.com/shorts/qmKhy7I_gYQ ; часть 7 пока не подтверждена.",
+    "publication_check": "21.11 часть7 public/processed/succeeded; буфер22/23.11 подтверждён readback Metricool и SHA256 скачиваемых MP4.",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
@@ -125,18 +125,39 @@
   },
   "next_daily_plan": {
     "date": "2026-11-22",
-    "state": "provisional",
+    "state": "confirmed",
     "planned_count": 1,
-    "reason": "Часть 7 не подтверждена на момент проверки 21.11; продолжать с первой фактически неопубликованной части, не дублировать.",
+    "reason": "Проверенный MP4 находится в подтверждённой очереди Metricool",
     "slots": [
       {
         "target_time": "09:00",
         "game": "Tenebris Somnia",
-        "episode": "первая неопубликованная часть (проверить часть 7)",
-        "action": "continue_approved_story",
-        "status": "PROVISIONAL",
-        "reason": "Один выпуск в сутки; производственный график 09:00 МСК"
+        "episode": "Часть8. Оружие против духов",
+        "action": "Metricool autoPublish",
+        "metricool_id": 436579008
       }
     ]
-  }
+  },
+  "confirmed_queue": [
+    {
+      "game": "Tenebris Somnia",
+      "part": 8,
+      "status": "SCHEDULED",
+      "scheduled_at": "2026-11-22T09:00:00+03:00",
+      "metricool_id": 436579008,
+      "metricool_uuid": "-1181300760205966606",
+      "sha256": "46f70917065586f41947b6eea447db6047b6cf96b81c2326f2fad76d43ebdce2",
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=-1181300760205966606"
+    },
+    {
+      "game": "Tenebris Somnia",
+      "part": 9,
+      "status": "SCHEDULED",
+      "scheduled_at": "2026-11-23T09:00:00+03:00",
+      "metricool_id": 436579333,
+      "metricool_uuid": "-2499528427800935649",
+      "sha256": "a90875500703d78fdfe157421f3a150997636f0f79df201e314c52d7c70a38ce",
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=-2499528427800935649"
+    }
+  ]
 }
