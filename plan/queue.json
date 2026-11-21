@@ -1,34 +1,34 @@
 {
   "schema": 2,
-  "snapshot_date": "2026-11-20",
-  "snapshot_label": "20 ноября 2026, 13:00 МСК",
+  "snapshot_date": "2026-11-21",
+  "snapshot_label": "21 ноября 2026 · исследование рынка · план на 22 ноября",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "Tenebris Somnia",
     "status": "active",
     "published_parts": 6,
-    "summary": "Части 1–6 опубликованы. Часть 5 вышла автоматически 19 ноября в 08:02 МСК; часть 6 восстановлена 20 ноября.",
+    "summary": "Части 1–6 подтверждены в журнале публикаций (последняя 20.11); часть 7 на 21.11 не подтверждена. Канонический финал не подтверждён.",
     "public_url": "https://www.youtube.com/shorts/qmKhy7I_gYQ",
     "scheduled_parts": 0
   },
   "next": {
     "game": "CH13: Rest Stop",
     "approved": true,
-    "approval": "editorial-autoselection 2026-11-16; reconfirmed 2026-11-20",
-    "status": "Резерв после Tenebris Somnia; не вытеснять текущую историю",
-    "handoff": "После канонического завершения Tenebris; не начинать параллельно без производственной мощности.",
-    "reason": "Международный спрос подтверждён независимыми авторами RU/EN/ID, короткий сюжетный хоррор. На фоне выхода GTA VI сохраняет нишевый интерес; точная конкуренция сюжетных пересказов не установлена.",
+    "approval": "editorial-autoselection 2026-11-16; reconfirmed 2026-11-21",
+    "status": "Одобрена после завершения Tenebris Somnia; не вытеснять активную серию",
+    "handoff": "Запуск после подтверждённого финала Tenebris Somnia и проверки сюжета CH13.",
+    "reason": "Три независимых канала RU/EN/ID с крупным охватом; завершённые прохождения доступны. Нишевый сюжетный хоррор, но отдельные пересказы и глубина канона требуют проверки.",
     "evidence": [
       {
-        "text": "Куплинов, 07.11: 688 572 просмотра, 27 204 лайка (20.11).",
+        "text": "Куплинов, 07.11: 693 085 просмотров, 27 431 лайк (21.11).",
         "url": "https://www.youtube.com/watch?v=wQzNzrJuL6E"
       },
       {
-        "text": "Kubz Scouts, 03.11: 416 970 просмотров, 17 945 лайков (20.11).",
+        "text": "Kubz Scouts, 03.11: 422 383 просмотра, 18 041 лайк (21.11).",
         "url": "https://www.youtube.com/watch?v=TK2FbvYkCk0"
       },
       {
-        "text": "Windah Basudara, 05.11: 1 490 926 просмотров, 22 272 лайка (20.11).",
+        "text": "Windah Basudara, 05.11: 1 499 743 просмотра, 22 342 лайка (21.11).",
         "url": "https://www.youtube.com/watch?v=Sg9PS9Hfux8"
       }
     ]
@@ -36,15 +36,15 @@
   "reserve": [
     {
       "game": "Five Signals",
-      "note": "Куплинов, 10.11: 686 027 просмотров (20.11). Проверить завершённый канон и конкуренцию."
+      "note": "Куплинов 10.11 — 702 184 просмотра, 21 347 лайков (21.11). Короткий мистический хоррор; проверить канон."
     },
     {
       "game": "BrokenLore: DON’T LIE",
-      "note": "Куплинов, 13.11: 506 902 просмотра (20.11). Проверить финал и хронометраж."
+      "note": "Куплинов 13.11 — 520 479 просмотров, 17 158 лайков (21.11). Проверить финал и конкуренцию."
     },
     {
       "game": "Leviathan: Rhino",
-      "note": "Куплинов, 14.11; сюжетный инди-кандидат, независимый охват пока не подтверждён."
+      "note": "Куплинов 14.11; интерес к драматической истории, независимый охват не подтверждён."
     }
   ],
   "closed": [
@@ -87,9 +87,9 @@
     "data_type": "dated editorial snapshot",
     "public_info_only": true,
     "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
-    "source": "StopGame → PlayGround → IGM.gg (в свежей выдаче не получены сопоставимые сигналы) → Куплинов → SNG Games (без новых проверенных данных) → YouTube Gaming RU/US/GB/JP → независимые YouTube-авторы; поиск 16.11",
-    "youtube_market_snapshot": "16.11: YouTube Gaming mostPopular RU/US/GB/JP: RU Minecraft/Roblox, US/GB GTA VI предрелиз и Minecraft, JP Dragon Quest/Minecraft. GTA VI трейлер TGG 15.11 — 1 812 829 просмотров, но канонический сюжет до релиза неизвестен. Не считать тренды платформы трендами сюжетных хорроров.",
-    "publication_check": "20.11: часть 6 подтверждена public/processed/succeeded: https://www.youtube.com/shorts/qmKhy7I_gYQ",
+    "source": "StopGame → PlayGround → IGM.gg → Куплинов → SNG Games (read-only) → YouTube Gaming RU/US/GB/JP → независимые авторы; 21.11.2026",
+    "youtube_market_snapshot": "21.11: Gaming mostPopular RU/US/GB преимущественно GTA VI, JP смешанный чарт; официальные чарты не показывают достаточного основания вытеснять нишевый хоррор. CH13 поддерживается тремя независимыми авторами; динамика 20→21.11 подтверждена по тем же видео.",
+    "publication_check": "21.11: RELEASE_LEDGER.jsonl подтверждает Tenebris Somnia 1–6, последняя 20.11 https://www.youtube.com/shorts/qmKhy7I_gYQ ; часть 7 пока не подтверждена.",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
@@ -124,17 +124,18 @@
     "approved_next": "CH13: Rest Stop"
   },
   "next_daily_plan": {
-    "date": "2026-11-21",
-    "state": "planned",
+    "date": "2026-11-22",
+    "state": "provisional",
     "planned_count": 1,
-    "reason": "Часть 6 опубликована. Часть 7 ещё не подготовлена; подтверждённого будущего слота нет.",
+    "reason": "Часть 7 не подтверждена на момент проверки 21.11; продолжать с первой фактически неопубликованной части, не дублировать.",
     "slots": [
       {
-        "target_time": "08:00",
+        "target_time": "09:00",
         "game": "Tenebris Somnia",
-        "episode": 7,
+        "episode": "первая неопубликованная часть (проверить часть 7)",
         "action": "continue_approved_story",
-        "status": "PLANNED"
+        "status": "PROVISIONAL",
+        "reason": "Один выпуск в сутки; производственный график 09:00 МСК"
       }
     ]
   }
