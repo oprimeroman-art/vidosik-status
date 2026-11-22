@@ -1,34 +1,34 @@
 {
   "schema": 2,
-  "snapshot_date": "2026-11-21",
-  "snapshot_label": "21 ноября 2026 · исследование рынка · план на 22 ноября",
+  "snapshot_date": "2026-11-22",
+  "snapshot_label": "22 ноября 2026 · игровая разведка · план на 23 ноября",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "Tenebris Somnia",
     "status": "active",
-    "published_parts": 7,
-    "summary": "Части 1–7 публичны. Часть 7 вышла 21.11; части8/9 готовы, проверены и поставлены в Metricool на22/23.11 в09:00 МСК. Финал основных концовок — часть9, ещё не опубликован.",
-    "public_url": "https://www.youtube.com/shorts/oFKnt7ABczQ",
+    "published_parts": 8,
+    "summary": "Части 1–8 опубликованы; часть 8 вышла 22.11 в 09:02 МСК. Часть 9 запланирована на 23.11 09:00 МСК, факт публикации пока не подтверждён.",
+    "public_url": "https://www.youtube.com/shorts/NM1bWvU4NxU",
     "scheduled_parts": 0
   },
   "next": {
     "game": "CH13: Rest Stop",
     "approved": true,
-    "approval": "editorial-autoselection 2026-11-16; reconfirmed 2026-11-21",
+    "approval": "editorial-autoselection 2026-11-16; reconfirmed 2026-11-22",
     "status": "Одобрена после завершения Tenebris Somnia; не вытеснять активную серию",
     "handoff": "Запуск после подтверждённого финала Tenebris Somnia и проверки сюжета CH13.",
-    "reason": "Три независимых канала RU/EN/ID с крупным охватом; завершённые прохождения доступны. Нишевый сюжетный хоррор, но отдельные пересказы и глубина канона требуют проверки.",
+    "reason": "Сильные независимые сигналы RU/US/ID по завершённым прохождениям; новые ролики 22.11 имеют пока единичные просмотры, поэтому новый всплеск не подтверждён. Канон и конкуренцию полноценных пересказов проверить до запуска.",
     "evidence": [
       {
-        "text": "Куплинов, 07.11: 693 085 просмотров, 27 431 лайк (21.11).",
+        "text": "Куплинов 07.11 — 697 807 просмотров, 27 676 лайков (22.11).",
         "url": "https://www.youtube.com/watch?v=wQzNzrJuL6E"
       },
       {
-        "text": "Kubz Scouts, 03.11: 422 383 просмотра, 18 041 лайк (21.11).",
+        "text": "Kubz Scouts 03.11 — 426 608 просмотров, 18 133 лайка (22.11).",
         "url": "https://www.youtube.com/watch?v=TK2FbvYkCk0"
       },
       {
-        "text": "Windah Basudara, 05.11: 1 499 743 просмотра, 22 342 лайка (21.11).",
+        "text": "Windah Basudara 05.11 — 1 510 389 просмотров, 22 431 лайк (22.11).",
         "url": "https://www.youtube.com/watch?v=Sg9PS9Hfux8"
       }
     ]
@@ -87,35 +87,30 @@
     "data_type": "dated editorial snapshot",
     "public_info_only": true,
     "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
-    "source": "StopGame → PlayGround → IGM.gg → Куплинов → SNG Games (read-only) → YouTube Gaming RU/US/GB/JP → независимые авторы; 21.11.2026",
-    "youtube_market_snapshot": "21.11: Gaming mostPopular RU/US/GB преимущественно GTA VI, JP смешанный чарт; официальные чарты не показывают достаточного основания вытеснять нишевый хоррор. CH13 поддерживается тремя независимыми авторами; динамика 20→21.11 подтверждена по тем же видео.",
-    "publication_check": "21.11 часть7 public/processed/succeeded; буфер22/23.11 подтверждён readback Metricool и SHA256 скачиваемых MP4.",
+    "source": "StopGame → PlayGround → IGM.gg → Куплинов → SNG Games (read-only) → YouTube Gaming RU/US/GB/JP → независимые авторы; 22.11.2026",
+    "youtube_market_snapshot": "22.11: mostPopular Gaming RU/US/GB преимущественно GTA VI; JP смешанный чарт. CH13 имеет три независимых крупных прохождения; свежие публикации 22.11 пока малопросматриваемы. Не путать чарт с измерением рынка сюжетных хорроров.",
+    "publication_check": "22.11: часть 8 PUBLISHED по GitHub ledger и публичному YouTube; часть 9 пока SCHEDULED на 23.11 по предыдущему подтверждению Metricool.",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
     "candidate_evidence": [
       {
         "game": "CH13: Rest Stop",
-        "text": "Куплинов 07.11 — 659 614 просмотров, 25 770 лайков (16.11); независимый Kubz Scouts — 385 505 по срезу 15.11.",
+        "text": "Куплинов 07.11 — 697 807 просмотров, 27 676 лайков (22.11).",
         "url": "https://www.youtube.com/watch?v=wQzNzrJuL6E"
       },
       {
-        "game": "Five Signals",
-        "text": "Куплинов 10.11 — 597 913 просмотров (16.11); независимый The NeptooN 12.11 — 3 729.",
-        "url": "https://www.youtube.com/watch?v=2wqUWuj30ls"
+        "game": "CH13: Rest Stop",
+        "text": "Kubz Scouts 03.11 — 426 608 просмотров, 18 133 лайка (22.11).",
+        "url": "https://www.youtube.com/watch?v=TK2FbvYkCk0"
       },
       {
-        "game": "BrokenLore: DON’T LIE",
-        "text": "Куплинов 13.11 — 398 058 просмотров; FLONDI 11.11 — 52 865 (16.11).",
-        "url": "https://www.youtube.com/watch?v=yhmq0FW3nEc"
-      },
-      {
-        "game": "Leviathan: Rhino",
-        "text": "Куплинов 14.11 — 483 426 просмотров; BigGaming64 06.11 — 81 974 (16.11).",
-        "url": "https://www.youtube.com/watch?v=pG3v_8sbCe8"
+        "game": "CH13: Rest Stop",
+        "text": "Windah Basudara 05.11 — 1 510 389 просмотров, 22 431 лайк (22.11).",
+        "url": "https://www.youtube.com/watch?v=Sg9PS9Hfux8"
       }
     ],
-    "research_limitations": "Исследование от 15 ноября предшествовало выходу первой части. Факт публикации проверен по YouTube и внесён в производственный журнал."
+    "research_limitations": "Проверены поисковые сигналы YouTube за 14 дней и официальные региональные чарты; 7/30-дневные ряды по всем каналам и исчерпывающий подсчёт сюжетных пересказов недоступны. Новых подтверждений для смены выбора нет."
   },
   "rotation": {
     "active_storylines": [
@@ -124,31 +119,21 @@
     "approved_next": "CH13: Rest Stop"
   },
   "next_daily_plan": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "state": "confirmed",
     "planned_count": 1,
-    "reason": "Проверенный MP4 находится в подтверждённой очереди Metricool",
+    "reason": "Часть 9 подготовлена и значится в подтверждённой очереди Metricool; это план, а не факт публикации.",
     "slots": [
       {
         "target_time": "09:00",
         "game": "Tenebris Somnia",
-        "episode": "Часть8. Оружие против духов",
-        "action": "Metricool autoPublish",
-        "metricool_id": 436579008
+        "episode": "Часть 9 — финал основных концовок",
+        "action": "Metricool autoPublish; проверить публичный YouTube URL после выхода",
+        "metricool_id": 436579333
       }
     ]
   },
   "confirmed_queue": [
-    {
-      "game": "Tenebris Somnia",
-      "part": 8,
-      "status": "SCHEDULED",
-      "scheduled_at": "2026-11-22T09:00:00+03:00",
-      "metricool_id": 436579008,
-      "metricool_uuid": "-1181300760205966606",
-      "sha256": "46f70917065586f41947b6eea447db6047b6cf96b81c2326f2fad76d43ebdce2",
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=-1181300760205966606"
-    },
     {
       "game": "Tenebris Somnia",
       "part": 9,
