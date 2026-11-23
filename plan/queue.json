@@ -31,7 +31,8 @@
         "text": "Windah Basudara 05.11 — 1 510 389 просмотров, 22 431 лайк (22.11).",
         "url": "https://www.youtube.com/watch?v=Sg9PS9Hfux8"
       }
-    ]
+    ],
+    "production_status": "Первая часть подготовлена и прошла QA; отправка в очередь пока не подтверждена."
   },
   "reserve": [
     {
@@ -110,7 +111,8 @@
         "url": "https://www.youtube.com/watch?v=Sg9PS9Hfux8"
       }
     ],
-    "research_limitations": "Проверены поисковые сигналы YouTube за 14 дней и официальные региональные чарты; 7/30-дневные ряды по всем каналам и исчерпывающий подсчёт сюжетных пересказов недоступны. Новых подтверждений для смены выбора нет."
+    "research_limitations": "Проверены поисковые сигналы YouTube за 14 дней и официальные региональные чарты; 7/30-дневные ряды по всем каналам и исчерпывающий подсчёт сюжетных пересказов недоступны. Новых подтверждений для смены выбора нет.",
+    "production_check": "23.11: финал Tenebris9 остаётся SCHEDULED на09:00. CH13 часть1 на24.11 готова (QA97.208с), пока не поставлена в очередь. Запас подтверждённых будущих постов1/2."
   },
   "rotation": {
     "active_storylines": [
@@ -143,6 +145,19 @@
       "metricool_uuid": "-2499528427800935649",
       "sha256": "a90875500703d78fdfe157421f3a150997636f0f79df201e314c52d7c70a38ce",
       "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=-2499528427800935649"
+    }
+  ],
+  "prepared_queue": [
+    {
+      "game": "CH13: Rest Stop",
+      "part": 1,
+      "intended_date": "2026-11-24",
+      "status": "QA_READY_NOT_SCHEDULED",
+      "title": "Сюжет CH13: Rest Stop — Часть 1. Ночная дорога",
+      "duration_seconds": 97.208333,
+      "sha256": "0d9b501eef72b92c777af7923966b8c41c1a16c53017277f1f413f9d8b9c6b56",
+      "run_url": "https://github.com/oprimeroman-art/vidosik-production/actions/runs/45098495290",
+      "blocker": "YouTube API403 quotaExceeded: complete duplicate check unavailable. Public Tenebris Somnia finale9 is required before series handoff."
     }
   ]
 }
