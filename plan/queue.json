@@ -1,51 +1,49 @@
 {
   "schema": 2,
-  "snapshot_date": "2026-11-22",
-  "snapshot_label": "22 ноября 2026 · игровая разведка · план на 23 ноября",
+  "snapshot_date": "2026-11-23",
+  "snapshot_label": "23 ноября 2026 · игровая разведка · план на 24 ноября",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
     "game": "Tenebris Somnia",
-    "status": "active",
-    "published_parts": 8,
-    "summary": "Части 1–8 опубликованы; часть 8 вышла 22.11 в 09:02 МСК. Часть 9 запланирована на 23.11 09:00 МСК, факт публикации пока не подтверждён.",
-    "public_url": "https://www.youtube.com/shorts/NM1bWvU4NxU",
-    "scheduled_parts": 0
+    "status": "published_finale_pending_canon_review",
+    "published_parts": 9,
+    "summary": "Часть 9 опубликована 23.11 в 09:02 МСК. Это финал основных концовок по редакционному плану; полное каноническое завершение серии отдельно не подтверждено.",
+    "public_url": "https://www.youtube.com/shorts/1bYNH8kMMxk"
   },
   "next": {
     "game": "CH13: Rest Stop",
     "approved": true,
-    "approval": "editorial-autoselection 2026-11-16; reconfirmed 2026-11-22",
-    "status": "Одобрена после завершения Tenebris Somnia; не вытеснять активную серию",
-    "handoff": "Запуск после подтверждённого финала Tenebris Somnia и проверки сюжета CH13.",
-    "reason": "Сильные независимые сигналы RU/US/ID по завершённым прохождениям; новые ролики 22.11 имеют пока единичные просмотры, поэтому новый всплеск не подтверждён. Канон и конкуренцию полноценных пересказов проверить до запуска.",
+    "approval": "editorial-autoselection 2026-11-16; reconfirmed 2026-11-23",
+    "status": "Следующая утверждённая игра; запуск после проверки полноты Tenebris Somnia",
+    "handoff": "Проверить, что Tenebris Somnia завершена канонически; затем запуск CH13 части 1 без дублирования.",
+    "reason": "Короткая завершённая сюжетная история (официально около 1 часа), независимые прохождения RU/US/ID; интерес сохраняется, но не обнаружен новый взрыв спроса. Официальная трактовка неоднозначного финала не подтверждена.",
     "evidence": [
       {
-        "text": "Куплинов 07.11 — 697 807 просмотров, 27 676 лайков (22.11).",
+        "text": "Куплинов, 07.11: 702 419 просмотров, 27 893 лайка (23.11).",
         "url": "https://www.youtube.com/watch?v=wQzNzrJuL6E"
       },
       {
-        "text": "Kubz Scouts 03.11 — 426 608 просмотров, 18 133 лайка (22.11).",
+        "text": "Kubz Scouts, 03.11: 430 587 просмотров, 18 231 лайк (23.11).",
         "url": "https://www.youtube.com/watch?v=TK2FbvYkCk0"
       },
       {
-        "text": "Windah Basudara 05.11 — 1 510 389 просмотров, 22 431 лайк (22.11).",
+        "text": "Windah Basudara, 05.11: 1 519 185 просмотров, 22 497 лайков (23.11).",
         "url": "https://www.youtube.com/watch?v=Sg9PS9Hfux8"
       }
-    ],
-    "production_status": "Первая часть подготовлена и прошла QA; отправка в очередь пока не подтверждена."
+    ]
   },
   "reserve": [
     {
       "game": "Five Signals",
-      "note": "Куплинов 10.11 — 702 184 просмотра, 21 347 лайков (21.11). Короткий мистический хоррор; проверить канон."
+      "note": "Короткий мистический хоррор, спрос отмечен у Куплинова; финал и независимый охват ещё требуют проверки."
     },
     {
       "game": "BrokenLore: DON’T LIE",
-      "note": "Куплинов 13.11 — 520 479 просмотров, 17 158 лайков (21.11). Проверить финал и конкуренцию."
+      "note": "Хоррор с интересом у Куплинова 13.11; проверить канон и насыщенность пересказами."
     },
     {
       "game": "Leviathan: Rhino",
-      "note": "Куплинов 14.11; интерес к драматической истории, независимый охват не подтверждён."
+      "note": "Драматическая история у Куплинова 14.11; независимый спрос пока не подтверждён."
     }
   ],
   "closed": [
@@ -88,31 +86,12 @@
     "data_type": "dated editorial snapshot",
     "public_info_only": true,
     "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
-    "source": "StopGame → PlayGround → IGM.gg → Куплинов → SNG Games (read-only) → YouTube Gaming RU/US/GB/JP → независимые авторы; 22.11.2026",
-    "youtube_market_snapshot": "22.11: mostPopular Gaming RU/US/GB преимущественно GTA VI; JP смешанный чарт. CH13 имеет три независимых крупных прохождения; свежие публикации 22.11 пока малопросматриваемы. Не путать чарт с измерением рынка сюжетных хорроров.",
-    "publication_check": "22.11: часть 8 PUBLISHED по GitHub ledger и публичному YouTube; часть 9 пока SCHEDULED на 23.11 по предыдущему подтверждению Metricool.",
+    "source": "StopGame → PlayGround → IGM.gg → Куплинов → SNG Games read-only → YouTube Gaming RU/US/GB/JP → независимые авторы; 23.11.2026",
+    "youtube_market_snapshot": "23.11: официальные Gaming-чарты RU/US/GB насыщены GTA VI и Minecraft; JP смешанный. CH13 не представлен как массовый чартовый лидер; подтверждены независимые прохождения.",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
-    "candidate_evidence": [
-      {
-        "game": "CH13: Rest Stop",
-        "text": "Куплинов 07.11 — 697 807 просмотров, 27 676 лайков (22.11).",
-        "url": "https://www.youtube.com/watch?v=wQzNzrJuL6E"
-      },
-      {
-        "game": "CH13: Rest Stop",
-        "text": "Kubz Scouts 03.11 — 426 608 просмотров, 18 133 лайка (22.11).",
-        "url": "https://www.youtube.com/watch?v=TK2FbvYkCk0"
-      },
-      {
-        "game": "CH13: Rest Stop",
-        "text": "Windah Basudara 05.11 — 1 510 389 просмотров, 22 431 лайк (22.11).",
-        "url": "https://www.youtube.com/watch?v=Sg9PS9Hfux8"
-      }
-    ],
-    "research_limitations": "Проверены поисковые сигналы YouTube за 14 дней и официальные региональные чарты; 7/30-дневные ряды по всем каналам и исчерпывающий подсчёт сюжетных пересказов недоступны. Новых подтверждений для смены выбора нет.",
-    "production_check": "23.11 07:03 МСК: финал9 подтверждён в Metricool на сегодня09:00, SHA256 проверен. Мастер CH13 части1 повторно скачан и проверен,97.208с. Очередь1/2; отправка блокируется YouTube403 quotaExceeded при чтении uploads, включая свежую сессию, и ожиданием публичного финала9."
+    "research_limitations": "Снимок метрик трёх видео CH13 на 23.11; 7/30-дневные временные ряды и исчерпывающий аудит конкурирующих пересказов недоступны. Финал CH13 неоднозначен."
   },
   "rotation": {
     "active_storylines": [
@@ -121,43 +100,18 @@
     "approved_next": "CH13: Rest Stop"
   },
   "next_daily_plan": {
-    "date": "2026-11-23",
-    "state": "confirmed",
+    "date": "2026-11-24",
+    "state": "provisional",
+    "reason": "Публичная часть 9 Tenebris Somnia подтверждена 23.11; переход к CH13 после проверки канонического финала и отсутствия дубля.",
     "planned_count": 1,
-    "reason": "Часть 9 подготовлена и значится в подтверждённой очереди Metricool; это план, а не факт публикации.",
     "slots": [
       {
         "target_time": "09:00",
-        "game": "Tenebris Somnia",
-        "episode": "Часть 9 — финал основных концовок",
-        "action": "Metricool autoPublish; проверить публичный YouTube URL после выхода",
-        "metricool_id": 436579333
+        "game": "CH13: Rest Stop",
+        "episode": "Часть 1 — Ночная дорога",
+        "action": "Проверить полноту Tenebris Somnia и опубликованные ролики, затем выпустить CH13 часть 1; время целевое, не подтверждённая публикация",
+        "reason": "Один сюжетный Short в день"
       }
     ]
-  },
-  "confirmed_queue": [
-    {
-      "game": "Tenebris Somnia",
-      "part": 9,
-      "status": "SCHEDULED",
-      "scheduled_at": "2026-11-23T09:00:00+03:00",
-      "metricool_id": 436579333,
-      "metricool_uuid": "-2499528427800935649",
-      "sha256": "a90875500703d78fdfe157421f3a150997636f0f79df201e314c52d7c70a38ce",
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=-2499528427800935649"
-    }
-  ],
-  "prepared_queue": [
-    {
-      "game": "CH13: Rest Stop",
-      "part": 1,
-      "intended_date": "2026-11-24",
-      "status": "QA_READY_NOT_SCHEDULED",
-      "title": "Сюжет CH13: Rest Stop — Часть 1. Ночная дорога",
-      "duration_seconds": 97.208333,
-      "sha256": "0d9b501eef72b92c777af7923966b8c41c1a16c53017277f1f413f9d8b9c6b56",
-      "run_url": "https://github.com/oprimeroman-art/vidosik-production/actions/runs/45098495290",
-      "blocker": "YouTube API403 quotaExceeded: complete duplicate check unavailable. Public Tenebris Somnia finale9 is required before series handoff."
-    }
-  ]
+  }
 }
