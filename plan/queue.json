@@ -91,7 +91,8 @@
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
-    "research_limitations": "Снимок метрик трёх видео CH13 на 23.11; 7/30-дневные временные ряды и исчерпывающий аудит конкурирующих пересказов недоступны. Финал CH13 неоднозначен."
+    "research_limitations": "Снимок метрик трёх видео CH13 на 23.11; 7/30-дневные временные ряды и исчерпывающий аудит конкурирующих пересказов недоступны. Финал CH13 неоднозначен.",
+    "production_check": "24.11: финал Tenebris9 public/processed/succeeded подтверждён напрямую. CH13 часть1 в Metricool на24.11 09:00, id439710557, хеш проверен. Часть2 собирается для25.11. Запас очереди1/2."
   },
   "rotation": {
     "active_storylines": [
@@ -113,5 +114,26 @@
         "reason": "Один сюжетный Short в день"
       }
     ]
-  }
+  },
+  "confirmed_queue": [
+    {
+      "game": "CH13: Rest Stop",
+      "part": 1,
+      "status": "SCHEDULED",
+      "scheduled_at": "2026-11-24T09:00:00+03:00",
+      "metricool_id": 439710557,
+      "metricool_uuid": "1036585942186083789",
+      "sha256": "0d9b501eef72b92c777af7923966b8c41c1a16c53017277f1f413f9d8b9c6b56",
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=1036585942186083789"
+    }
+  ],
+  "prepared_queue": [
+    {
+      "game": "CH13: Rest Stop",
+      "part": 2,
+      "intended_date": "2026-11-25",
+      "status": "RENDERING",
+      "run_url": "https://github.com/oprimeroman-art/vidosik-production/actions/runs/45310560307"
+    }
+  ]
 }
