@@ -92,7 +92,7 @@
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
     "research_limitations": "Снимок метрик трёх видео CH13 на 23.11; 7/30-дневные временные ряды и исчерпывающий аудит конкурирующих пересказов недоступны. Финал CH13 неоднозначен.",
-    "production_check": "24.11: финал Tenebris9 public/processed/succeeded подтверждён напрямую. CH13 часть1 в Metricool на24.11 09:00, id439710557, хеш проверен. Часть2 собирается для25.11. Запас очереди1/2."
+    "production_check": "24.11: очередь2/2 подтверждена прямым readback Metricool и SHA256 видео. CH13 часть1:24.11 09:00; часть2:25.11 09:00. Финал Tenebris9 public/processed/succeeded. Полный фильм заблокирован: артефакт части1 не совпал с опубликованным SHA256."
   },
   "rotation": {
     "active_storylines": [
@@ -119,21 +119,31 @@
     {
       "game": "CH13: Rest Stop",
       "part": 1,
+      "episode": "episodes/ch13-rest-stop-part1-20261124",
       "status": "SCHEDULED",
       "scheduled_at": "2026-11-24T09:00:00+03:00",
       "metricool_id": 439710557,
       "metricool_uuid": "1036585942186083789",
+      "media_url": "https://static.metricool.com/planner/202611/7805582-file-17754536477234668488.mp4",
       "sha256": "0d9b501eef72b92c777af7923966b8c41c1a16c53017277f1f413f9d8b9c6b56",
+      "duration_seconds": 97.208333,
+      "run_id": 45098495290,
       "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=1036585942186083789"
-    }
-  ],
-  "prepared_queue": [
+    },
     {
       "game": "CH13: Rest Stop",
       "part": 2,
-      "intended_date": "2026-11-25",
-      "status": "RENDERING",
-      "run_url": "https://github.com/oprimeroman-art/vidosik-production/actions/runs/45310560307"
+      "episode": "episodes/ch13-rest-stop-part2-20261125",
+      "status": "SCHEDULED",
+      "scheduled_at": "2026-11-25T09:00:00+03:00",
+      "metricool_id": 439716745,
+      "metricool_uuid": "5189044688761868286",
+      "media_url": "https://static.metricool.com/planner/202611/7805582-file-14524127785821937125.mp4",
+      "sha256": "7bd081f9bbf4de01ec964d1ea1ea3951b811c966d850e5bbfd18926127d540fd",
+      "duration_seconds": 97.666667,
+      "run_id": 45310560307,
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=5189044688761868286"
     }
-  ]
+  ],
+  "prepared_queue": []
 }
