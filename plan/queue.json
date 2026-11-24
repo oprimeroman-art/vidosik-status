@@ -1,49 +1,49 @@
 {
   "schema": 2,
-  "snapshot_date": "2026-11-23",
-  "snapshot_label": "23 ноября 2026 · игровая разведка · план на 24 ноября",
+  "snapshot_date": "2026-11-24",
+  "snapshot_label": "24 ноября 2026 · игровая разведка · план на 25 ноября",
   "editorial_purpose": "Выбор следующей игры для полного сюжетного пересказа, не аналитика собственного канала",
   "current": {
-    "game": "Tenebris Somnia",
-    "status": "published_finale_pending_canon_review",
-    "published_parts": 9,
-    "summary": "Часть 9 опубликована 23.11 в 09:02 МСК. Это финал основных концовок по редакционному плану; полное каноническое завершение серии отдельно не подтверждено.",
-    "public_url": "https://www.youtube.com/shorts/1bYNH8kMMxk"
+    "game": "CH13: Rest Stop",
+    "status": "published",
+    "published_parts": 1,
+    "summary": "Часть 1 «Ночная дорога» опубликована 24.11 в 09:03 МСК.",
+    "public_url": "https://www.youtube.com/shorts/FwsRQkWymic"
   },
   "next": {
-    "game": "CH13: Rest Stop",
+    "game": "Leviathan: Rhino",
     "approved": true,
-    "approval": "editorial-autoselection 2026-11-16; reconfirmed 2026-11-23",
-    "status": "Следующая утверждённая игра; запуск после проверки полноты Tenebris Somnia",
-    "handoff": "Проверить, что Tenebris Somnia завершена канонически; затем запуск CH13 части 1 без дублирования.",
-    "reason": "Короткая завершённая сюжетная история (официально около 1 часа), независимые прохождения RU/US/ID; интерес сохраняется, но не обнаружен новый взрыв спроса. Официальная трактовка неоднозначного финала не подтверждена.",
+    "approval": "editorial-autoselection",
+    "status": "Следующая игра после CH13",
+    "handoff": "После завершения CH13 и проверки охвата концовок Tenebris; проверить финал Leviathan по полному прохождению.",
+    "reason": "Релиз 06.11, короткая история старика перед неизбежной катастрофой; высокий RU и подтверждённый международный спрос, прохождения около часа. Фаза спада первой волны (T+18); конкуренция пересказов не измерена.",
     "evidence": [
       {
-        "text": "Куплинов, 07.11: 702 419 просмотров, 27 893 лайка (23.11).",
-        "url": "https://www.youtube.com/watch?v=wQzNzrJuL6E"
+        "text": "Kuplinov ► Play  14.11: 928 990 просмотров  31 649 лайков на 24.11.",
+        "url": "https://www.youtube.com/watch?v=pG3v_8sbCe8"
       },
       {
-        "text": "Kubz Scouts, 03.11: 430 587 просмотров, 18 231 лайк (23.11).",
-        "url": "https://www.youtube.com/watch?v=TK2FbvYkCk0"
+        "text": "perpetuumworld  14.11: 58 004 просмотров  1 360 лайков на 24.11.",
+        "url": "https://www.youtube.com/watch?v=sWmzIB2tcPI"
       },
       {
-        "text": "Windah Basudara, 05.11: 1 519 185 просмотров, 22 497 лайков (23.11).",
-        "url": "https://www.youtube.com/watch?v=Sg9PS9Hfux8"
+        "text": "The Outer Middle Show  13.11: 89 502 просмотров  2 329 лайков на 24.11.",
+        "url": "https://www.youtube.com/watch?v=-Tt-jvf1jo0"
       }
     ]
   },
   "reserve": [
     {
       "game": "Five Signals",
-      "note": "Короткий мистический хоррор, спрос отмечен у Куплинова; финал и независимый охват ещё требуют проверки."
+      "note": "Куплинов 10.11: 737 882 просмотра на 24.11; свежий независимый охват не подтверждён."
     },
     {
       "game": "BrokenLore: DON’T LIE",
-      "note": "Хоррор с интересом у Куплинова 13.11; проверить канон и насыщенность пересказами."
+      "note": "Куплинов 13.11: 555 307; FLONDI 11.11: 63 205; международный охват в выборке слабый."
     },
     {
-      "game": "Leviathan: Rhino",
-      "note": "Драматическая история у Куплинова 14.11; независимый спрос пока не подтверждён."
+      "game": "Ravenhill: Initiation",
+      "note": "Релиз 22.11; сюжетный хоррор, но свежие RU/US результаты поиска пусты; полнота истории не проверена."
     }
   ],
   "closed": [
@@ -86,63 +86,42 @@
     "data_type": "dated editorial snapshot",
     "public_info_only": true,
     "update_cadence": "Ежедневно в 13:00 МСК — план на следующий день",
-    "source": "StopGame → PlayGround → IGM.gg → Куплинов → SNG Games read-only → YouTube Gaming RU/US/GB/JP → независимые авторы; 23.11.2026",
-    "youtube_market_snapshot": "23.11: официальные Gaming-чарты RU/US/GB насыщены GTA VI и Minecraft; JP смешанный. CH13 не представлен как массовый чартовый лидер; подтверждены независимые прохождения.",
+    "source": "StopGame → PlayGround → IGM.gg → Куплинов → SNG Games → YouTube RU/US/GB/JP, 24.11",
+    "youtube_market_snapshot": "Первые до 25 результатов каждого Gaming-чарта: GTA VI и Minecraft заметны во всех регионах. Leviathan подтверждена независимыми прохождениями, не чартовым лидерством.",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
-    "research_limitations": "Снимок метрик трёх видео CH13 на 23.11; 7/30-дневные временные ряды и исчерпывающий аудит конкурирующих пересказов недоступны. Финал CH13 неоднозначен.",
-    "production_check": "24.11: очередь2/2 подтверждена прямым readback Metricool и SHA256 видео. CH13 часть1:24.11 09:00; часть2:25.11 09:00. Финал Tenebris9 public/processed/succeeded. Полный фильм заблокирован: артефакт части1 не совпал с опубликованным SHA256."
+    "research_limitations": "Нет полных временных рядов 7/30 дней и исчерпывающего аудита конкуренции. Финал Tenebris отдельно не проверен.",
+    "production_check": "CH13 часть 1 публична 24.11; часть 2 запланирована на 25.11."
   },
   "rotation": {
     "active_storylines": [
-      "Tenebris Somnia"
+      "Tenebris Somnia",
+      "CH13: Rest Stop"
     ],
-    "approved_next": "CH13: Rest Stop"
+    "approved_next": "Leviathan: Rhino"
   },
   "next_daily_plan": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "state": "provisional",
-    "reason": "Публичная часть 9 Tenebris Somnia подтверждена 23.11; переход к CH13 после проверки канонического финала и отсутствия дубля.",
+    "reason": "CH13 часть 1 публична; один выпуск, без дублей. Полнота финала Tenebris ещё не проверена.",
     "planned_count": 1,
     "slots": [
       {
         "target_time": "09:00",
         "game": "CH13: Rest Stop",
-        "episode": "Часть 1 — Ночная дорога",
-        "action": "Проверить полноту Tenebris Somnia и опубликованные ролики, затем выпустить CH13 часть 1; время целевое, не подтверждённая публикация",
-        "reason": "Один сюжетный Short в день"
+        "episode": "Часть 2",
+        "action": "Продолжить историю; проверить отсутствие дубля",
+        "reason": "Один Short в день"
       }
     ]
   },
   "confirmed_queue": [
     {
       "game": "CH13: Rest Stop",
-      "part": 1,
-      "episode": "episodes/ch13-rest-stop-part1-20261124",
-      "status": "SCHEDULED",
-      "scheduled_at": "2026-11-24T09:00:00+03:00",
-      "metricool_id": 439710557,
-      "metricool_uuid": "1036585942186083789",
-      "media_url": "https://static.metricool.com/planner/202611/7805582-file-17754536477234668488.mp4",
-      "sha256": "0d9b501eef72b92c777af7923966b8c41c1a16c53017277f1f413f9d8b9c6b56",
-      "duration_seconds": 97.208333,
-      "run_id": 45098495290,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=1036585942186083789"
-    },
-    {
-      "game": "CH13: Rest Stop",
       "part": 2,
-      "episode": "episodes/ch13-rest-stop-part2-20261125",
       "status": "SCHEDULED",
-      "scheduled_at": "2026-11-25T09:00:00+03:00",
-      "metricool_id": 439716745,
-      "metricool_uuid": "5189044688761868286",
-      "media_url": "https://static.metricool.com/planner/202611/7805582-file-14524127785821937125.mp4",
-      "sha256": "7bd081f9bbf4de01ec964d1ea1ea3951b811c966d850e5bbfd18926127d540fd",
-      "duration_seconds": 97.666667,
-      "run_id": 45310560307,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=5189044688761868286"
+      "scheduled_at": "2026-11-25T09:00:00+03:00"
     }
   ],
   "prepared_queue": []
