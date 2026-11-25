@@ -92,7 +92,7 @@
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
     "research_limitations": "Нет полных временных рядов 7/30 дней и исчерпывающего аудита конкуренции. Финал Tenebris отдельно не проверен.",
-    "production_check": "25.11: CH13 часть1 PUBLISHED по прямому ответу Metricool. Часть2 подтверждена на25.11 09:00, мастер SHA256 совпал. Часть3 собирается на26.11; отправка пока закрыта из-за403quotaExceeded при проверке uploads. Запас1/2."
+    "production_check": "25.11: CH13 часть1 PUBLISHED по Metricool; часть2 остаётся подтверждённой на25.11 09:00. Часть3 на26.11 готова:114.917с,check_episode.py PASS, мастер сохранён и хеш проверен; НЕ в очереди из-за403quotaExceeded при полной проверке дублей. Запас очереди1/2."
   },
   "rotation": {
     "active_storylines": [
@@ -132,11 +132,19 @@
   ],
   "prepared_queue": [
     {
+      "episode": "episodes/ch13-rest-stop-part3-20261126",
       "game": "CH13: Rest Stop",
       "part": 3,
-      "intended_date": "2026-11-26",
-      "status": "RENDERING",
-      "run_url": "https://github.com/oprimeroman-art/vidosik-production/actions/runs/45530867400"
+      "date": "2026-11-26",
+      "stage": "qa_ready",
+      "run_id": 45530867400,
+      "run_url": "https://github.com/oprimeroman-art/vidosik-production/actions/runs/45530867400",
+      "sha256": "1cb7f2f9e93169b5ca01a1b34578c76c3a731e1dd37f6b3a3fb932bacc7e27bf",
+      "duration_seconds": 114.916667,
+      "master_path": "episodes/ch13-rest-stop-part3-20261126/final.mp4",
+      "master_verified_at": "2026-11-25T05:11:37.149026+03:00",
+      "status": "QA_READY_NOT_SCHEDULED",
+      "blocker": "Complete YouTube uploads check403quotaExceeded in fresh session; Studio sign-in required."
     }
   ]
 }
