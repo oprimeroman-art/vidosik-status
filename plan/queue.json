@@ -6,9 +6,9 @@
   "current": {
     "game": "CH13: Rest Stop",
     "status": "published",
-    "published_parts": 2,
-    "summary": "Части1–2 CH13 опубликованы; часть2 подтверждена26.11 по Metricool PUBLISHED и хешу видео.",
-    "public_url": "https://www.youtube.com/shorts/wcRvA_mQaJc"
+    "published_parts": 3,
+    "summary": "Часть3 опубликована26.11 через прямой Metricool. Часть4 подтверждена на27.11 09:00 МСК.",
+    "public_url": "https://www.youtube.com/shorts/1iJWf4zK3ug"
   },
   "next": {
     "game": "Leviathan: Rhino",
@@ -92,7 +92,7 @@
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
     "research_limitations": "Нет полных временных рядов 7/30 дней и исчерпывающего аудита конкуренции. Финал Tenebris отдельно не проверен.",
-    "production_check": "26.11: прямой Metricool работает. CH13 часть3 поставлена на сегодня13:45,часть4на27.11 09:00. Оба реальных видео подтверждены readback и SHA256. Обязательная проверка через Composio YouTube удалена. Утренний запас1/2,на28.11 ещё нужен выпуск.",
+    "production_check": "26.11: CH13 часть3 PUBLISHED,ссылка подтверждена прямым Metricool;часть4 SCHEDULED27.11 09:00,MP4 SHA256 совпал. Composio YouTube полностью исключён из публикации. Запас следующих утр1/2;28.11 требует следующего выпуска.",
     "publication_provider": "direct Metricool"
   },
   "rotation": {
@@ -118,19 +118,6 @@
     ]
   },
   "confirmed_queue": [
-    {
-      "episode": "episodes/ch13-rest-stop-part3-20261126",
-      "game": "CH13: Rest Stop",
-      "part": 3,
-      "status": "SCHEDULED",
-      "scheduled_at": "2026-11-26T13:45:00+03:00",
-      "metricool_id": 442926749,
-      "metricool_uuid": "5618712238056686417",
-      "media_url": "https://static.metricool.com/planner/202611/7805582-file-12981297358636972132.mp4",
-      "sha256": "1cb7f2f9e93169b5ca01a1b34578c76c3a731e1dd37f6b3a3fb932bacc7e27bf",
-      "run_id": 45530867400,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=5618712238056686417"
-    },
     {
       "episode": "episodes/ch13-rest-stop-part4-20261127",
       "game": "CH13: Rest Stop",
