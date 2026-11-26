@@ -92,7 +92,7 @@
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
     "research_limitations": "Нет полных временных рядов 7/30 дней и исчерпывающего аудита конкуренции. Финал Tenebris отдельно не проверен.",
-    "production_check": "26.11: часть2 CH13 PUBLISHED. Очередь26–28.11 пуста,запас0/2. Части3/4 полностью готовы и проверены (114.917с/130.5с). Отправка заблокирована403quotaExceeded в двух сессиях; Studio требует вход. Повторных отправок нет."
+    "production_check": "26.11 повторная проверка: очередь26–28.11 пуста,запас0/2. Мастера CH13 частей3/4 заново скачаны и SHA256 подтверждены; исходники сохранены. Полная проверка дублей403quotaExceeded в двух свежих сессиях; Studio требует входа. Отправок нет."
   },
   "rotation": {
     "active_storylines": [
@@ -130,8 +130,18 @@
       "sha256": "1cb7f2f9e93169b5ca01a1b34578c76c3a731e1dd37f6b3a3fb932bacc7e27bf",
       "duration_seconds": 114.916667,
       "master_path": "episodes/ch13-rest-stop-part3-20261126/final.mp4",
-      "master_verified_at": "2026-11-26T05:08:01.247128+03:00",
-      "blocker": "403 quotaExceeded on complete uploads check in original and fresh session; Studio sign-in required"
+      "master_verified_at": "2026-11-26T07:05:42.951988+03:00",
+      "source_files_verified_present": [
+        "script_ru.md",
+        "research_sources.json",
+        "voice.zip",
+        "scene_and_presenter_sources.zip",
+        "storyboard.json",
+        "render_tenebris.py",
+        "final.mp4",
+        "qa.json"
+      ],
+      "blocker": "Complete uploads read403quotaExceeded in original and fresh session; Studio sign-in required"
     },
     {
       "episode": "episodes/ch13-rest-stop-part4-20261127",
@@ -145,8 +155,18 @@
       "sha256": "df4e95a670e80c334d4a6f5dd63bd41c821f021f3e0eed44f76f3279e0f552c5",
       "duration_seconds": 130.5,
       "master_path": "episodes/ch13-rest-stop-part4-20261127/final.mp4",
-      "master_verified_at": "2026-11-26T05:08:01.247128+03:00",
-      "blocker": "403 quotaExceeded on complete uploads check in original and fresh session; Studio sign-in required"
+      "master_verified_at": "2026-11-26T07:05:42.951988+03:00",
+      "source_files_verified_present": [
+        "script_ru.md",
+        "research_sources.json",
+        "voice.zip",
+        "scene_and_presenter_sources.zip",
+        "storyboard.json",
+        "render_tenebris.py",
+        "final.mp4",
+        "qa.json"
+      ],
+      "blocker": "Complete uploads read403quotaExceeded in original and fresh session; Studio sign-in required"
     }
   ]
 }
