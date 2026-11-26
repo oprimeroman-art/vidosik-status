@@ -6,9 +6,9 @@
   "current": {
     "game": "CH13: Rest Stop",
     "status": "published",
-    "published_parts": 1,
-    "summary": "Часть 1 «Ночная дорога» опубликована 24.11 в 09:03 МСК.",
-    "public_url": "https://www.youtube.com/shorts/FwsRQkWymic"
+    "published_parts": 2,
+    "summary": "Части1–2 CH13 опубликованы; часть2 подтверждена26.11 по Metricool PUBLISHED и хешу видео.",
+    "public_url": "https://www.youtube.com/shorts/wcRvA_mQaJc"
   },
   "next": {
     "game": "Leviathan: Rhino",
@@ -92,7 +92,7 @@
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
     "research_limitations": "Нет полных временных рядов 7/30 дней и исчерпывающего аудита конкуренции. Финал Tenebris отдельно не проверен.",
-    "production_check": "25.11: CH13 часть1 PUBLISHED по Metricool; часть2 остаётся подтверждённой на25.11 09:00. Часть3 на26.11 готова:114.917с,check_episode.py PASS, мастер сохранён и хеш проверен; НЕ в очереди из-за403quotaExceeded при полной проверке дублей. Запас очереди1/2."
+    "production_check": "26.11: часть2 CH13 PUBLISHED. Очередь26–28.11 пуста,запас0/2. Части3/4 полностью готовы и проверены (114.917с/130.5с). Отправка заблокирована403quotaExceeded в двух сессиях; Studio требует вход. Повторных отправок нет."
   },
   "rotation": {
     "active_storylines": [
@@ -116,35 +116,37 @@
       }
     ]
   },
-  "confirmed_queue": [
-    {
-      "episode": "episodes/ch13-rest-stop-part2-20261125",
-      "game": "CH13: Rest Stop",
-      "part": 2,
-      "status": "SCHEDULED",
-      "scheduled_at": "2026-11-25T09:00:00+03:00",
-      "metricool_id": 439716745,
-      "metricool_uuid": "5189044688761868286",
-      "media_url": "https://static.metricool.com/planner/202611/7805582-file-14524127785821937125.mp4",
-      "sha256": "7bd081f9bbf4de01ec964d1ea1ea3951b811c966d850e5bbfd18926127d540fd",
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=5189044688761868286"
-    }
-  ],
+  "confirmed_queue": [],
   "prepared_queue": [
     {
       "episode": "episodes/ch13-rest-stop-part3-20261126",
       "game": "CH13: Rest Stop",
       "part": 3,
       "date": "2026-11-26",
+      "status": "QA_READY_NOT_SCHEDULED",
       "stage": "qa_ready",
       "run_id": 45530867400,
       "run_url": "https://github.com/oprimeroman-art/vidosik-production/actions/runs/45530867400",
       "sha256": "1cb7f2f9e93169b5ca01a1b34578c76c3a731e1dd37f6b3a3fb932bacc7e27bf",
       "duration_seconds": 114.916667,
       "master_path": "episodes/ch13-rest-stop-part3-20261126/final.mp4",
-      "master_verified_at": "2026-11-25T05:11:37.149026+03:00",
+      "master_verified_at": "2026-11-26T05:08:01.247128+03:00",
+      "blocker": "403 quotaExceeded on complete uploads check in original and fresh session; Studio sign-in required"
+    },
+    {
+      "episode": "episodes/ch13-rest-stop-part4-20261127",
+      "game": "CH13: Rest Stop",
+      "part": 4,
+      "date": "2026-11-27",
       "status": "QA_READY_NOT_SCHEDULED",
-      "blocker": "Complete YouTube uploads check403quotaExceeded in fresh session; Studio sign-in required."
+      "stage": "qa_ready",
+      "run_id": 45739996966,
+      "run_url": "https://github.com/oprimeroman-art/vidosik-production/actions/runs/45739996966",
+      "sha256": "df4e95a670e80c334d4a6f5dd63bd41c821f021f3e0eed44f76f3279e0f552c5",
+      "duration_seconds": 130.5,
+      "master_path": "episodes/ch13-rest-stop-part4-20261127/final.mp4",
+      "master_verified_at": "2026-11-26T05:08:01.247128+03:00",
+      "blocker": "403 quotaExceeded on complete uploads check in original and fresh session; Studio sign-in required"
     }
   ]
 }
