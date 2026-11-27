@@ -92,7 +92,7 @@
     "no_extra_shorts_without_demand": true,
     "last_completed_arc": "F.E.A.R. 2",
     "research_limitations": "Нет полных временных рядов 7/30 дней и исчерпывающего аудита конкуренции. Финал Tenebris отдельно не проверен.",
-    "production_check": "26.11: CH13 часть3 PUBLISHED,ссылка подтверждена прямым Metricool;часть4 SCHEDULED27.11 09:00,MP4 SHA256 совпал. Composio YouTube полностью исключён из публикации. Запас следующих утр1/2;28.11 требует следующего выпуска.",
+    "production_check": "27.11: CH13 часть4 подтверждена на27.11 09:00,новаячасть5 Плач в лесу на28.11 09:00. Оба реальных MP4 проверены по readback и SHA256; запас2/2. Часть5:115.333с,12реплик,check_episode.py PASS,run45926609807. Публикация напрямую Metricool,Composio YouTube не вызывался.",
     "publication_provider": "direct Metricool"
   },
   "rotation": {
@@ -130,6 +130,19 @@
       "sha256": "df4e95a670e80c334d4a6f5dd63bd41c821f021f3e0eed44f76f3279e0f552c5",
       "run_id": 45739996966,
       "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=1760814231894837822"
+    },
+    {
+      "episode": "episodes/ch13-rest-stop-part5-20261128",
+      "game": "CH13: Rest Stop",
+      "part": 5,
+      "status": "SCHEDULED",
+      "scheduled_at": "2026-11-28T09:00:00+03:00",
+      "metricool_id": 443853816,
+      "metricool_uuid": "-2946824161619261588",
+      "media_url": "https://static.metricool.com/planner/202611/7805582-file-6384622267902112790.mp4",
+      "sha256": "765cd99a40fc4d44873fcc20a7c438caafe00cd7e733b6a707a2378b4d90f54e",
+      "run_id": 45926609807,
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=-2946824161619261588"
     }
   ],
   "prepared_queue": []
