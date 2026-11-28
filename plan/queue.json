@@ -6,9 +6,9 @@
   "current": {
     "game": "CH13: Rest Stop",
     "status": "published",
-    "published_parts": 3,
-    "summary": "Часть3 опубликована26.11 через прямой Metricool. Часть4 подтверждена на27.11 09:00 МСК.",
-    "public_url": "https://www.youtube.com/shorts/1iJWf4zK3ug"
+    "published_parts": 4,
+    "summary": "Часть4 опубликована;часть5 назначена на28.11 09:00,финал6 на29.11 09:00 МСК. Оба MP4 подтверждены прямым Metricool и SHA256.",
+    "public_url": "https://www.youtube.com/shorts/3-YOU3mPsBs"
   },
   "next": {
     "game": "Leviathan: Rhino",
@@ -49,7 +49,8 @@
   "closed": [
     "F.E.A.R. 2",
     "Postal",
-    "Half-Life"
+    "Half-Life",
+    "Tenebris Somnia"
   ],
   "owner_rules": {
     "no_approval_buttons": true,
@@ -90,47 +91,33 @@
     "youtube_market_snapshot": "Первые до 25 результатов каждого Gaming-чарта: GTA VI и Minecraft заметны во всех регионах. Leviathan подтверждена независимыми прохождениями, не чартовым лидерством.",
     "no_channel_analytics": true,
     "no_extra_shorts_without_demand": true,
-    "last_completed_arc": "F.E.A.R. 2",
+    "last_completed_arc": "Tenebris Somnia",
     "research_limitations": "Нет полных временных рядов 7/30 дней и исчерпывающего аудита конкуренции. Финал Tenebris отдельно не проверен.",
-    "production_check": "27.11: CH13 часть4 подтверждена на27.11 09:00,новаячасть5 Плач в лесу на28.11 09:00. Оба реальных MP4 проверены по readback и SHA256; запас2/2. Часть5:115.333с,12реплик,check_episode.py PASS,run45926609807. Публикация напрямую Metricool,Composio YouTube не вызывался.",
+    "production_check": "28.11: подтверждена публичная часть4;часть5 на28.11 09:00,новый финал6 Пробуждение на29.11 09:00. Readback и SHA256 обоих MP4 совпали. Финал6:141.542с,12реплик,check_episode.py PASS,run46106260084. Запас двух ближайших будущих утренних публикаций2/2. Прямой Metricool.",
     "publication_provider": "direct Metricool"
   },
   "rotation": {
     "active_storylines": [
-      "Tenebris Somnia",
       "CH13: Rest Stop"
     ],
     "approved_next": "Leviathan: Rhino"
   },
   "next_daily_plan": {
-    "date": "2026-11-25",
-    "state": "provisional",
-    "reason": "CH13 часть 1 публична; один выпуск, без дублей. Полнота финала Tenebris ещё не проверена.",
+    "date": "2026-11-29",
+    "state": "scheduled",
     "planned_count": 1,
+    "reason": "ФиналCH13 подготовлен и фактически принят Metricool",
     "slots": [
       {
         "target_time": "09:00",
         "game": "CH13: Rest Stop",
-        "episode": "Часть 2",
-        "action": "Продолжить историю; проверить отсутствие дубля",
-        "reason": "Один Short в день"
+        "episode": "Часть6. Пробуждение",
+        "action": "Автоматическая публикация подтверждённого видеопоста",
+        "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=770767331480784735"
       }
     ]
   },
   "confirmed_queue": [
-    {
-      "episode": "episodes/ch13-rest-stop-part4-20261127",
-      "game": "CH13: Rest Stop",
-      "part": 4,
-      "status": "SCHEDULED",
-      "scheduled_at": "2026-11-27T09:00:00+03:00",
-      "metricool_id": 442927078,
-      "metricool_uuid": "1760814231894837822",
-      "media_url": "https://static.metricool.com/planner/202611/7805582-file-17925866833324458487.mp4",
-      "sha256": "df4e95a670e80c334d4a6f5dd63bd41c821f021f3e0eed44f76f3279e0f552c5",
-      "run_id": 45739996966,
-      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=1760814231894837822"
-    },
     {
       "episode": "episodes/ch13-rest-stop-part5-20261128",
       "game": "CH13: Rest Stop",
@@ -143,7 +130,21 @@
       "sha256": "765cd99a40fc4d44873fcc20a7c438caafe00cd7e733b6a707a2378b4d90f54e",
       "run_id": 45926609807,
       "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=-2946824161619261588"
+    },
+    {
+      "episode": "episodes/ch13-rest-stop-part6-20261129",
+      "game": "CH13: Rest Stop",
+      "part": 6,
+      "status": "SCHEDULED",
+      "scheduled_at": "2026-11-29T09:00:00+03:00",
+      "metricool_id": 445127733,
+      "metricool_uuid": "770767331480784735",
+      "media_url": "https://static.metricool.com/planner/202611/7805582-file-6033387432265407233.mp4",
+      "sha256": "0d244555e6564ec62ddf8460f2528fa42693063ad8ac24ac4b811cbc5659d532",
+      "run_id": 46106260084,
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7805582&openWithPostUuid=770767331480784735"
     }
   ],
-  "prepared_queue": []
+  "prepared_queue": [],
+  "production_updated_at": "2026-11-28T07:14:45.804513+03:00"
 }
